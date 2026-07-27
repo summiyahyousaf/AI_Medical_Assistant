@@ -122,7 +122,7 @@ Interactive Web Application
 
 <p align="center">
   <img src="docs/screenshots/settings.png" width="47%">
-  <img src="docs/screenshots/a2.png" width="47%">
+  <img src="docs/screenshots/assistantt.png" width="47%">
 </p>
 
 
