@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.png" alt="AI Medical Assistant Banner" width="100%">
+</p>
+
 # 🩺 AI Medical Assistant
 <h3 align="center">
 Intelligent Healthcare Prediction & Conversational AI Platform
