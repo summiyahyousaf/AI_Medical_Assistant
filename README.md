@@ -16,25 +16,44 @@ Intelligent Healthcare Prediction & Conversational AI Platform
 <img src="https://img.shields.io/badge/Python-3.14-yellow?style=for-the-badge&logo=python" />
 
 </p>
+AI Medical Assistant is a Machine Learning powered healthcare web application that predicts diseases based on user-selected symptoms.
+The application combines Flask, Scikit-learn, SQLite, HTML, CSS and JavaScript to deliver disease prediction, AI-powered health assistance, downloadable medical reports and healthcare analytics through an intuitive web interface.
 
 #  Project Objectives
 
 The main objectives of this project are:
 
--Build an intelligent symptom-based disease prediction system.
--Compare multiple Machine Learning algorithms.
--Select and deploy the best-performing model.
--Develop a complete AI-powered healthcare application using Flask.
--Generate AI-assisted medical reports with confidence scores.
+- Build an intelligent symptom-based disease prediction system.
+- Compare multiple Machine Learning algorithms.
+- Select and deploy the best-performing model.
+- Develop a complete AI-powered healthcare application using Flask.
+- Generate AI-assisted medical reports with confidence scores.
 
 # Project Overview
 
 AI Medical Assistant is an end-to-end healthcare AI application designed to assist users in understanding their symptoms through machine learning-based disease prediction.
 The system analyzes user-provided symptoms, converts them into machine-readable features, and uses trained classification models to predict possible diseases.
 
-Along with prediction capabilities, the application provides a complete healthcare workflow:
+##  Features
+
+- Secure User Authentication
+- Disease Prediction using Machine Learning
+- Confidence Score Generation
+- Medical Report Generation
+- PDF Download
+- Previous Reports History
+- Health Analytics Dashboard
+- AI Medical Assistant Chatbot
+- SQLite Database Integration
+
+# 🎥 Project Demo
+
+https://www.youtube.com/watch?v=wUH74Kr6yi4
+
 
 #  Application Workflow
+The application provides a complete healthcare workflow:
+
 
 <p align="center">
   <img src="docs/screenshots/workflow.png" width="500">
@@ -49,13 +68,6 @@ Along with prediction capabilities, the application provides a complete healthca
 </p>
 
 ---
-
-
-# 🎥 Project Demo
-
-https://www.youtube.com/watch?v=wUH74Kr6yi4
-
-
 
 
 
@@ -105,9 +117,24 @@ https://www.youtube.com/watch?v=wUH74Kr6yi4
 </p>
 
 
-        │    
+##  Dataset
 
-# Data Processing
+The model was trained using a disease-symptom dataset containing:
+
+- 132 symptoms
+- 41 diseases
+- Binary symptom encoding
+- Training and testing datasets
+
+Dataset files:
+```bash
+
+dataset/
+├── Training.csv
+└── Testing.csv
+   ```       
+
+# Machine Learning Pipeline
 
 
 ## 1. Data Loading
@@ -153,13 +180,12 @@ The model receives a 132-dimensional feature vector and are converted into numer
 Multiple classification algorithms were trained and evaluated:
 
 
-|      Model                 |         Description          |
-
-
-|     Decision Tree          | Rule-based classifier        |
-|     Random Forest          | Ensemble learning classifier |
-|       Naive Bayes          | Probabilistic classifier     |
-|     Support Vector Machine | Margin-based classifier      |
+| Model         | Accuracy |
+| ------------- | -------- |
+| Decision Tree | xx%      |
+| Random Forest | xx%      |
+| Naive Bayes   | xx%      |
+| SVM           | xx%      |
 
 
 Evaluation metrics:
@@ -193,10 +219,10 @@ Reasons for selection:
 
 
 Saved model:
-
+```bash
 models/
 └── best_model.pkl
-
+```
 
 
 #  Application Features
@@ -379,25 +405,31 @@ Recall
 
 F1 Score
 
+## Results
+
+The final deployed model achieved:
+
+- High classification accuracy
+- Reliable disease prediction
+- Fast real-time inference
+- Confidence score generation
+- PDF report generation
+
 
 # Future Improvements:
 
--Artificial Intelligence Improvements
--Deep Learning disease prediction
--Neural network-based classification
--Large Language Model healthcare assistant
--Explainable AI integration
--Healthcare Features
--Voice-based medical assistant
--Medical document analysis
--Personalized health recommendations
--Doctor recommendation system
--Appointment management
--Machine Learning Improvements
--Larger medical datasets
--Better confidence calibration
--SHAP model explanations
--Continuous learning pipeline
+- Artificial Intelligence Improvements
+- Deep Learning disease prediction
+- Neural network-based classification
+- Large Language Model healthcare assistant
+- Explainable AI integration
+- Healthcare Features
+- Voice-based medical assistant
+- Medical document analysis
+- Personalized health recommendations
+- Doctor recommendation system
+- Appointment management
+
 
 
 
@@ -411,25 +443,24 @@ Always consult qualified healthcare professionals for medical decisions.
 
 
 
-Markdown
+## 👩‍💻 Developer
 
-# #Developer
-## Summiya Yousaf
+**Summiya Yousaf**
 
 Bachelor of Science in Artificial Intelligence
+
 Air University Islamabad
 
+### Interests
 
-Areas of Interest:
+- Artificial Intelligence
+- Machine Learning
+- Healthcare AI
+- NLP
+- Computer Vision
 
-Artificial Intelligence
-Machine Learning
-Healthcare AI
-Computer Vision
-NLP
-
-## Version:
-AI Medical Assistant v1.0
+GitHub:
+github.com/summiyahyousaf
 
 
 ⭐ If you found this project interesting, consider giving it a star!
