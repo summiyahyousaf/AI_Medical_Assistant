@@ -90,7 +90,7 @@ Interactive Web Application
 
 ##  Dashboard
 
-<img src="static/images/screenshots/dashboard.png" width="800">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.png" width="800">
 
 
 ##  Disease Prediction
@@ -98,19 +98,19 @@ Interactive Web Application
 <img src="static/images/screenshots/prediction.png" width="800">
 
 
-##  AI Medical Report
+##  Medical Report
 
-<img src="static/images/screenshots/report.png" width="800">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.png" width="800">
 
 
 ##  Analytics Dashboard
 
-<img src="static/images/screenshots/analytics.png" width="800">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/analytics.png" width="800">
 
 
 ##  AI Medical Assistant
 
-<img src="static/images/screenshots/assistant.png" width="800">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/AI_Assistant.png" width="800">
 
 
 #  System Architecture
