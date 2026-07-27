@@ -85,7 +85,7 @@ Interactive Web Application
 
 ##  User Authentication
 
-<img src="static/images/screenshots/login.png" width="800">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/login.png" width="800">
 
 
 ##  Dashboard
