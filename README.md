@@ -31,7 +31,7 @@ The main objectives of this project are:
 
 # 🎥 Project Demo
 
-> Demo video will be added soon.
+https://www.youtube.com/watch?v=wUH74Kr6yi4
 
 
 # Project Overview
