@@ -82,20 +82,11 @@ Interactive Web Application
 
 # 📸 Application Screenshots
 
-##  Authentication
-
-<p align="center">
-  <img src="docs/screenshots/login.png" width="47%">
-  <img src="docs/screenshots/logout.png" width="47%">
-</p>
-
----
 
 ##  Dashboard & Prediction
 
 <p align="center">
   <img src="docs/screenshots/dashboard.png" width="47%">
-  <img src="docs/screenshots/predict_disease.png" width="47%">
 </p>
 
 ---
