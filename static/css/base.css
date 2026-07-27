@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.flash.error{
+
+    background:#FFEBEE;
+
+    color:#C62828;
+
+    border-left:5px solid #C62828;
+
+}
+
+
+:root{
+
+    --background:#F7FBF8;
+
+    --card:white;
+
+    --primary:#2E7D32;
+
+    --secondary:#81C784;
+
+    --text:#123;
+
+    --muted:#666;
+
+    --border:#D8E3DC;
+
+    --radius:20px;
+
+    --shadow:0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+
+/* ===========================
+   BODY
+=========================== */
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    font-weight:400;
+
+    line-height:1.7;
+
+}
+
+
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+
+h1{
+
+    font-size:34px;
+
+    font-weight:600;
+
+    color:var(--primary);
+
+}
+
+
+h2{
+
+    font-size:25px;
+
+    font-weight:600;
+
+    color:var(--primary);
+
+}
+
+
+h3{
+
+    font-size:20px;
+
+    font-weight:500;
+
+    color:var(--primary);
+
+}
+
+
+
+/* ===========================
+   TEXT
+=========================== */
+
+
+p,
+.subtitle{
+
+    color:var(--muted);
+
+    font-weight:400;
+
+}
+
+
+label{
+
+    color:var(--text);
+
+    font-weight:400;
+
+}
+
+
+
+/* ===========================
+   CARDS
+=========================== */
+
+
+.card,
+.auth-card,
+.dashboard-card,
+.profile-card,
+.prediction-card,
+.logout-card{
+
+    background:var(--card);
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+
+button,
+.auth-btn,
+.predict-btn,
+.dashboard-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    padding:14px 28px;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+button:hover,
+.auth-btn:hover,
+.predict-btn:hover,
+.dashboard-btn:hover{
+
+    background:#256D28;
+
+    transform:translateY(-2px);
+
+}
+
+
+
+/* ===========================
+   TEXT INPUTS ONLY
+=========================== */
+
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,
+select{
+
+    width:100%;
+
+    padding:14px;
+
+    margin-top:8px;
+
+    border:1px solid var(--border);
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    font-family:"Poppins";
+
+    transition:.3s;
+
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:var(--primary);
+
+    box-shadow:0 0 0 3px rgba(46,125,50,.15);
+
+}
+
+
+
+/* ===========================
+   RADIO + CHECKBOX FIX
+=========================== */
+
+
+input[type="radio"],
+input[type="checkbox"]{
+
+    width:18px;
+
+    height:18px;
+
+    margin:0;
+
+    padding:0;
+
+    accent-color:var(--primary);
+
+}
+
+
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+
+.container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 0;
+
+}
+
+
+
+/* ===========================
+   LINKS
+=========================== */
+
+
+a{
+
+    text-decoration:none;
+
+}
+
+
+
+/* ===========================
+   HR
+=========================== */
+
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #E5E7EB;
+
+    margin:35px 0;
+
+}
+
+
+
+/* ===========================
+   FLASH
+=========================== */
+
+
+.flash{
+
+    width:90%;
+
+    max-width:500px;
+
+    margin:20px auto;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    text-align:center;
+
+}
+
+
+
+.flash.success{
+
+    background:#E8F5E9;
+
+    color:#2E7D32;
+
+    border-left:5px solid #2E7D32;
+
+}
+
+
+.flash.error{
+
+    background:#FFEBEE;
+
+    color:#C62828;
+
+    border-left:5px solid #C62828;
+
+}

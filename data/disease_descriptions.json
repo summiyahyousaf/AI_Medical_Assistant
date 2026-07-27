@@ -1,0 +1,84 @@
+{
+  "Fungal infection": "A fungal infection is a disease caused by fungi that can affect the skin, nails, hair, or internal organs. Most fungal infections occur on the skin and are characterized by itching, redness, scaling, or rashes. They are generally treatable with antifungal medications but may recur if proper hygiene is not maintained.",
+
+  "Allergy": "An allergy is an overreaction of the immune system to substances that are usually harmless, known as allergens. Common triggers include pollen, dust, certain foods, insect stings, and medications. Allergic reactions can range from mild symptoms such as sneezing and skin rashes to severe, life-threatening anaphylaxis.",
+
+  "GERD": "Gastroesophageal Reflux Disease (GERD) is a chronic digestive disorder in which stomach acid frequently flows back into the esophagus. This acid reflux can irritate the lining of the esophagus, causing heartburn, chest discomfort, and regurgitation. If left untreated, GERD may lead to complications affecting the esophagus.",
+
+  "Chronic cholestasis": "Chronic cholestasis is a long-term condition in which the normal flow of bile from the liver is reduced or blocked. The buildup of bile can lead to itching, jaundice, fatigue, and digestive problems. Early diagnosis is important to prevent liver damage and other complications.",
+
+  "Drug Reaction": "A drug reaction is an unwanted or harmful response to a medication taken at normal doses. Reactions may range from mild skin rashes and itching to severe allergic responses affecting multiple organs. Prompt medical evaluation is important when a serious reaction is suspected.",
+
+  "Peptic ulcer diseae": "Peptic ulcer disease is a condition in which painful sores develop in the lining of the stomach or the upper part of the small intestine. It is commonly associated with Helicobacter pylori infection or prolonged use of certain pain-relieving medications. Symptoms often include burning stomach pain, nausea, and bloating.",
+
+  "AIDS": "Acquired Immunodeficiency Syndrome (AIDS) is the advanced stage of Human Immunodeficiency Virus (HIV) infection. It severely weakens the immune system, making the body vulnerable to opportunistic infections and certain cancers. Early diagnosis and appropriate treatment can significantly improve quality of life and life expectancy.",
+
+  "Diabetes ": "Diabetes mellitus is a chronic metabolic disorder in which the body cannot properly regulate blood glucose levels. It occurs due to insufficient insulin production, ineffective insulin use, or both. Poorly controlled diabetes can lead to complications affecting the heart, kidneys, eyes, nerves, and blood vessels.",
+
+  "Gastroenteritis": "Gastroenteritis is an inflammation of the stomach and intestines, usually caused by viral, bacterial, or parasitic infections. It commonly results in diarrhea, vomiting, abdominal cramps, and dehydration. Most cases are self-limiting, but severe dehydration may require medical attention.",
+
+  "Bronchial Asthma": "Bronchial asthma is a chronic inflammatory disease of the airways that causes recurrent episodes of wheezing, coughing, chest tightness, and shortness of breath. Symptoms may be triggered by allergens, infections, exercise, or environmental irritants. Proper management helps reduce the frequency and severity of attacks.",
+
+  "Hypertension ": "Hypertension, commonly known as high blood pressure, is a long-term condition in which the force of blood against the artery walls remains consistently elevated. It often develops without noticeable symptoms but significantly increases the risk of heart disease, stroke, and kidney damage if left untreated.",
+
+  "Migraine": "Migraine is a neurological disorder characterized by recurrent episodes of moderate to severe headaches, often affecting one side of the head. The pain may be accompanied by nausea, vomiting, and sensitivity to light or sound. Some individuals experience visual or sensory disturbances known as aura before the headache begins.",
+
+
+  "Chicken pox": "Chicken pox is a highly contagious viral infection caused by the varicella-zoster virus. It is characterized by an itchy, blister-like rash, fever, fatigue, and loss of appetite. Although the disease is usually mild in children, it can cause serious complications in adults, pregnant women, newborns, and individuals with weakened immune systems.",
+
+  "Dengue": "Dengue is a mosquito-borne viral disease transmitted primarily by Aedes mosquitoes. It commonly causes high fever, severe headache, muscle and joint pain, skin rash, and fatigue. In severe cases, dengue can lead to bleeding, shock, organ failure, and requires immediate medical attention.",
+
+  "Common Cold": "The common cold is a mild viral infection that primarily affects the nose and throat. It is caused by several viruses, most commonly rhinoviruses, and spreads through respiratory droplets or direct contact. Symptoms usually include sneezing, runny nose, sore throat, nasal congestion, and cough, and most people recover within one to two weeks.",
+
+  "Pneumonia": "Pneumonia is an infection that causes inflammation of the air sacs in one or both lungs. The air sacs may fill with fluid or pus, leading to symptoms such as cough, fever, chills, chest pain, and difficulty breathing. Pneumonia can range from mild to life-threatening, particularly in older adults, young children, and individuals with weakened immune systems.",
+
+  "Jaundice": "Jaundice is a medical condition characterized by yellowing of the skin, eyes, and mucous membranes due to an increased level of bilirubin in the blood. It is often a sign of underlying liver disease, bile duct obstruction, or excessive breakdown of red blood cells. Early diagnosis is important to identify and treat the underlying cause.",
+
+  "Malaria": "Malaria is a life-threatening parasitic disease caused by Plasmodium parasites and transmitted through the bite of infected female Anopheles mosquitoes. Common symptoms include high fever, chills, sweating, headache, and fatigue. Without timely diagnosis and treatment, malaria can lead to severe complications affecting the brain, kidneys, and other organs.",
+
+  "Typhoid": "Typhoid fever is a bacterial infection caused by Salmonella Typhi and is usually spread through contaminated food or water. It commonly presents with prolonged fever, abdominal pain, weakness, headache, and digestive disturbances. Early diagnosis and appropriate antibiotic treatment are essential to prevent serious complications.",
+
+  "Tuberculosis": "Tuberculosis (TB) is a contagious bacterial infection caused by Mycobacterium tuberculosis that primarily affects the lungs but may involve other organs. Symptoms often include persistent cough, fever, night sweats, chest pain, weight loss, and fatigue. Early detection and completion of the full treatment course are essential for successful recovery and to prevent disease transmission.",
+
+  "Hepatitis B": "Hepatitis B is a viral infection that affects the liver and is caused by the hepatitis B virus (HBV). It spreads through contact with infected blood and body fluids and may lead to both acute and chronic liver disease. Chronic infection significantly increases the risk of liver cirrhosis and liver cancer if left untreated.",
+
+  "Hepatitis C": "Hepatitis C is a liver infection caused by the hepatitis C virus (HCV), primarily transmitted through contact with infected blood. Many infected individuals have no symptoms for years, allowing the disease to progress silently. Without appropriate treatment, chronic hepatitis C can result in liver fibrosis, cirrhosis, liver failure, or liver cancer.",
+
+
+    "Hepatitis D": "Hepatitis D is a serious viral liver infection caused by the hepatitis D virus (HDV). It can only occur in individuals who are already infected with the hepatitis B virus, as HDV requires HBV to replicate. Co-infection or superinfection increases the risk of severe liver disease, cirrhosis, and liver failure.",
+
+  "Hepatitis E": "Hepatitis E is a viral liver disease caused by the hepatitis E virus (HEV), primarily transmitted through contaminated drinking water. Most infections are self-limiting and resolve within a few weeks, but severe illness may occur in pregnant women and individuals with weakened immune systems. Maintaining proper sanitation and access to clean water are essential for prevention.",
+
+  "hepatitis A": "Hepatitis A is a contagious viral infection of the liver caused by the hepatitis A virus (HAV). It is usually transmitted through contaminated food, water, or close contact with an infected person. Although most people recover completely without permanent liver damage, vaccination is the most effective method of prevention.",
+
+  "Alcoholic hepatitis": "Alcoholic hepatitis is an inflammatory liver disease caused by excessive and prolonged alcohol consumption. The condition ranges from mild liver inflammation to severe liver damage and may lead to liver failure if alcohol use continues. Early diagnosis and complete abstinence from alcohol significantly improve the chances of recovery.",
+
+  "Hypoglycemia": "Hypoglycemia is a condition in which blood glucose levels fall below the normal range, depriving the body and brain of adequate energy. It commonly occurs in people with diabetes due to excessive insulin, missed meals, or intense physical activity. Severe hypoglycemia requires immediate treatment to prevent confusion, seizures, unconsciousness, or other serious complications.",
+
+  "Hyperthyroidism": "Hyperthyroidism is a disorder in which the thyroid gland produces excessive amounts of thyroid hormones, resulting in an increased metabolic rate. Common effects include rapid heartbeat, weight loss, nervousness, excessive sweating, and heat intolerance. If left untreated, hyperthyroidism may lead to serious cardiovascular and bone-related complications.",
+
+  "Hypothyroidism": "Hypothyroidism is a condition in which the thyroid gland does not produce sufficient thyroid hormones, leading to a slowed metabolism. Individuals commonly experience fatigue, weight gain, dry skin, constipation, cold intolerance, and depression. Early diagnosis and lifelong hormone replacement therapy can effectively manage the condition.",
+
+  "Osteoarthristis": "Osteoarthritis is a chronic degenerative joint disease in which the protective cartilage cushioning the ends of bones gradually wears away. It commonly affects the knees, hips, hands, and spine, causing joint pain, stiffness, swelling, and reduced mobility. Although it cannot be cured, appropriate treatment and lifestyle modifications can significantly improve quality of life.",
+
+  "Arthritis": "Arthritis is a group of disorders characterized by inflammation of one or more joints, resulting in pain, swelling, stiffness, and reduced movement. There are many forms of arthritis, including osteoarthritis and rheumatoid arthritis, each with different causes and treatment approaches. Early diagnosis helps reduce joint damage and maintain mobility.",
+
+  "Cervical spondylosis": "Cervical spondylosis is an age-related degenerative condition affecting the bones, discs, and joints of the cervical spine (neck). It commonly causes neck pain, stiffness, headaches, and, in some cases, numbness or weakness in the shoulders, arms, or hands due to nerve compression. Most individuals can manage symptoms effectively with conservative treatment and regular medical follow-up.",
+    "Paralysis (brain hemorrhage)": "Paralysis caused by a brain hemorrhage occurs when bleeding within the brain damages the areas responsible for controlling movement and sensation. Depending on the location and severity of the hemorrhage, individuals may experience weakness or complete loss of movement on one side of the body, difficulty speaking, vision problems, and loss of coordination. Immediate medical treatment is critical to minimize permanent brain damage and improve recovery.",
+
+  "Heart attack": "A heart attack, medically known as myocardial infarction, occurs when blood flow to a part of the heart muscle is suddenly blocked, resulting in damage or death of heart tissue. Common symptoms include chest pain or pressure, shortness of breath, sweating, nausea, and pain radiating to the arm, neck, jaw, or back. A heart attack is a medical emergency that requires immediate diagnosis and treatment to prevent life-threatening complications.",
+
+  "Varicose veins": "Varicose veins are enlarged, twisted veins that commonly develop in the legs due to weakened or damaged vein valves. The condition may cause aching pain, swelling, heaviness, muscle cramps, itching, and visible blue or purple veins beneath the skin. Although often considered a cosmetic concern, severe cases may lead to skin ulcers, bleeding, or blood clots if left untreated.",
+
+  "Urinary tract infection": "A urinary tract infection (UTI) is a bacterial infection affecting any part of the urinary system, including the kidneys, bladder, ureters, or urethra. It commonly causes painful urination, increased urinary frequency, pelvic discomfort, and cloudy or foul-smelling urine. Prompt treatment is important to prevent the infection from spreading to the kidneys.",
+
+  "(vertigo) Paroymsal  Positional Vertigo": "Benign Paroxysmal Positional Vertigo (BPPV) is a disorder of the inner ear that causes brief episodes of dizziness triggered by changes in head position. The condition occurs when tiny calcium crystals become displaced within the inner ear, affecting balance. Although BPPV is not life-threatening, it can significantly increase the risk of falls and negatively impact daily activities.",
+
+  "Acne": "Acne is a common inflammatory skin condition that develops when hair follicles become blocked with excess oil, dead skin cells, and bacteria. It typically appears on the face, chest, shoulders, and back as pimples, blackheads, whiteheads, or cysts. While acne is most common during adolescence, it can affect individuals of all ages and may lead to permanent scarring if left untreated.",
+
+  "Psoriasis": "Psoriasis is a chronic autoimmune skin disorder that accelerates the growth cycle of skin cells, leading to the formation of thick, red, scaly patches. The condition commonly affects the elbows, knees, scalp, and lower back and may be associated with itching, burning, or joint inflammation. Although there is no cure, appropriate treatment can effectively control symptoms and reduce flare-ups.",
+
+  "Dimorphic hemmorhoids(piles)": "Hemorrhoids, commonly known as piles, are swollen and inflamed veins located in the lower rectum or anus. They may develop internally or externally and commonly cause pain, itching, bleeding during bowel movements, and discomfort while sitting. Most cases improve with conservative treatment, although severe hemorrhoids may require minimally invasive procedures or surgery.",
+
+  "Impetigo": "Impetigo is a highly contagious bacterial skin infection caused primarily by Staphylococcus aureus or Streptococcus pyogenes. It is characterized by red sores or blisters that rupture and form honey-colored crusts, most commonly around the nose, mouth, and exposed skin. Early treatment helps prevent the spread of infection to other individuals and reduces the risk of complications."
+}

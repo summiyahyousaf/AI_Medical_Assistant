@@ -1,0 +1,39 @@
+/* ===========================
+   PROFILE BUTTONS
+=========================== */
+
+.profile-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.profile-btn{
+
+    width:220px;
+
+}
+
+.secondary-btn{
+
+    background:white;
+
+    color:#2E7D32;
+
+    border:2px solid #2E7D32;
+
+}
+
+.secondary-btn:hover{
+
+    background:#E8F5E9;
+
+}

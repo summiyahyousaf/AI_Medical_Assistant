@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Logout</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/base.css') }}">
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/logout.css') }}">
+
+</head>
+
+
+<body>
+
+
+<div class="logout-container">
+
+
+<div class="logout-card">
+
+
+<h1>
+🚪 Logout
+</h1>
+
+
+<p>
+Are you sure you want to logout?
+</p>
+
+
+<div class="logout-buttons">
+
+
+<a href="{{ url_for('confirm_logout') }}">
+
+<button class="logout-btn">
+
+Yes, Logout
+
+</button>
+
+</a>
+
+
+
+<a href="{{ url_for('dashboard') }}">
+
+<button class="cancel-btn">
+
+Cancel
+
+</button>
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>

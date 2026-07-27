@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Logout Successful</title>
+
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/base.css') }}">
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/logout.css') }}">
+
+
+<meta http-equiv="refresh" content="3;url=/login">
+
+</head>
+
+
+<body>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+
+    {% if messages %}
+
+        {% for category, message in messages %}
+
+            <div class="flash {{ category }}">
+                {{ message }}
+            </div>
+
+        {% endfor %}
+
+    {% endif %}
+
+{% endwith %}
+<div class="logout-container">
+
+
+<div class="logout-card">
+
+
+<h1>
+✅ Logout Successful
+</h1>
+
+
+<p>
+You have been logged out successfully.
+</p>
+
+
+<p>
+Redirecting to login page...
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>

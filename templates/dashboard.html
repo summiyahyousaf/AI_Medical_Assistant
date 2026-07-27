@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>AI Medical Dashboard</title>
+
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/base.css') }}">
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/dashboard.css') }}">
+
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/assistant.css') }}">
+
+</head>
+
+
+<body>
+
+
+<div class="app-layout">
+
+
+
+<!-- ================= SIDEBAR ================= -->
+
+
+<aside class="sidebar">
+
+
+<div class="logo">
+
+🩺 AI Medical Assistant
+
+</div>
+
+
+
+
+<nav class="sidebar-menu">
+
+
+<a href="{{ url_for('dashboard') }}" class="active">
+
+🏠 Dashboard
+
+</a>
+
+
+
+<a href="{{ url_for('predict') }}">
+
+🩺 Predict Disease
+
+</a>
+
+
+
+<a href="{{ url_for('reports') }}">
+
+📄 Reports
+
+</a>
+
+
+
+<a href="{{ url_for('profile') }}">
+
+👤 Profile
+
+</a>
+
+
+
+<a href="{{ url_for('analytics') }}">
+
+📊 Health Analytics
+
+</a>
+
+
+
+<a href="{{ url_for('settings') }}">
+
+⚙ Settings
+
+</a>
+
+
+
+</nav>
+
+
+
+
+
+<!-- ================= SIDEBAR BOTTOM ================= -->
+
+
+<div class="sidebar-bottom">
+
+
+<a href="{{ url_for('assistant') }}">
+
+💬 AI Assistant
+
+</a>
+
+
+
+<a href="{{ url_for('confirm_logout') }}">
+
+🚪 Logout
+
+</a>
+
+
+
+</div>
+
+
+
+</aside>
+
+
+
+
+
+
+<!-- ================= MAIN CONTENT ================= -->
+
+
+<main class="dashboard-content">
+
+
+
+
+
+<!-- ================= WELCOME SECTION ================= -->
+
+
+<div class="welcome-box">
+
+
+<div class="welcome-text">
+
+
+<h1>
+
+{{ greeting }}, {{ username }} 👋
+
+</h1>
+
+
+<p>
+
+Your AI healthcare companion is ready to help you analyze symptoms,
+track reports, and access intelligent medical assistance.
+
+</p>
+
+
+</div>
+
+
+
+<div class="welcome-icon">
+
+🩺
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ================= DASHBOARD CARDS ================= -->
+
+
+<div class="dashboard-grid">
+
+
+
+
+
+<!-- Predict Disease -->
+
+
+<div class="dashboard-card">
+
+
+<div class="card-icon">
+
+🩺
+
+</div>
+
+
+<h3 class="dashboard-title">
+
+Predict Disease
+
+</h3>
+
+
+<p class="dashboard-description">
+
+Analyze symptoms and get AI-based disease prediction.
+
+</p>
+
+
+<a href="{{ url_for('predict') }}" class="dashboard-btn">
+
+Start Prediction →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Reports -->
+
+
+<div class="dashboard-card">
+
+
+<div class="card-icon">
+
+📄
+
+</div>
+
+
+<h3 class="dashboard-title">
+
+Previous Reports
+
+</h3>
+
+
+<p class="dashboard-description">
+
+View your previous medical prediction reports.
+
+</p>
+
+
+<a href="{{ url_for('reports') }}" class="dashboard-btn">
+
+View Reports →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Profile -->
+
+
+<div class="dashboard-card">
+
+
+<div class="card-icon">
+
+👤
+
+</div>
+
+
+<h3 class="dashboard-title">
+
+My Profile
+
+</h3>
+
+
+<p class="dashboard-description">
+
+Manage your personal information.
+
+</p>
+
+
+<a href="{{ url_for('profile') }}" class="dashboard-btn">
+
+Open →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Analytics -->
+
+
+<div class="dashboard-card">
+
+
+<div class="card-icon">
+
+📊
+
+</div>
+
+
+<h3 class="dashboard-title">
+
+Health Analytics
+
+</h3>
+
+
+<p class="dashboard-description">
+
+Visualize your health insights.
+
+</p>
+
+
+<a href="{{ url_for('analytics') }}" class="dashboard-btn">
+
+Open →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Settings -->
+
+
+<div class="dashboard-card">
+
+
+<div class="card-icon">
+
+⚙
+
+</div>
+
+
+<h3 class="dashboard-title">
+
+Settings
+
+</h3>
+
+
+<p class="dashboard-description">
+
+Customize application settings.
+
+</p>
+
+
+<a href="{{ url_for('settings') }}" class="dashboard-btn">
+
+Open →
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+</main>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- ===========================
+     FLOATING AI ASSISTANT
+=========================== -->
+
+
+
+<div id="chat-toggle">
+
+💬
+
+</div>
+
+
+
+
+
+<div id="chat-window">
+
+
+
+<div class="chat-header">
+
+
+<h2>
+
+🩺 AI Assistant
+
+</h2>
+
+
+
+<button id="close-chat">
+
+&times;
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div id="chat-messages">
+
+
+
+<div class="bot-message">
+
+👋 Hello! I'm your AI Medical Assistant.
+
+<br><br>
+
+How can I help you today?
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="chat-input-area">
+
+
+
+<input
+
+type="text"
+
+id="chat-input"
+
+placeholder="Type your health question..."
+
+>
+
+
+
+
+<button id="send-btn">
+
+Send
+
+</button>
+
+
+
+</div>
+
+</div>
+
+
+
+
+<script src="{{ url_for('static', filename='js/assistant.js') }}"></script>
+
+
+
+
+</body>
+
+</html>

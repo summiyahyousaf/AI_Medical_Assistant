@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Analytics Dashboard</title>
+
+    <link rel="stylesheet"
+     href="{{ url_for('static', filename='css/base.css') }}">
+
+ <link rel="stylesheet"
+   href="{{ url_for('static', filename='css/analytics.css') }}">
+
+</head>
+
+<body>
+
+<div class="analytics-container">
+
+    <h1> AI Medical Analytics Dashboard</h1>
+
+    {% if total_predictions == 0 %}
+
+        <h2>No reports available yet.</h2>
+
+    {% else %}
+
+    <div class="analytics-cards">
+
+        <div class="card">
+
+            <h3>Total Predictions</h3>
+
+            <h2>{{ total_predictions }}</h2>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Most Common Disease</h3>
+
+            <h2>{{ most_common }}</h2>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Average Confidence</h3>
+
+            <h2>{{ average_confidence }}%</h2>
+
+        </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="chart-box">
+
+    <h2>Disease Distribution (Pie Chart)</h2>
+
+    <img
+        src="{{ url_for('static', filename='charts/disease_pie.png') }}"
+        alt="Pie Chart"
+        style="width:500px;">
+
+</div>
+
+<br><br>
+
+<div class="chart-box">
+
+    <h2>Top Predicted Diseases (Bar Chart)</h2>
+
+    <img
+        src="{{ url_for('static', filename='charts/disease_bar.png') }}"
+        alt="Bar Chart"
+        style="width:700px;">
+
+</div>
+
+    {% endif %}
+
+    <br><br>
+
+    <a href="{{ url_for('dashboard') }}">
+        <button>⬅ Back to Dashboard</button>
+    </a>
+
+</div>
+
+</body>
+
+</html>

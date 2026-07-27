@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Edit Profile</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/base.css') }}">
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/editprofile.css') }}">
+
+</head>
+
+<body>
+
+<div class="edit-container">
+
+<div class="edit-card">
+
+<h1>✏ Edit Profile</h1>
+
+<form action="/update_profile" method="POST">
+
+<label>Full Name</label>
+
+<input
+type="text"
+name="name"
+value="{{ name }}"
+required>
+
+<label>Email</label>
+
+<input
+type="email"
+name="email"
+value="{{ email }}"
+required>
+
+<div class="edit-buttons">
+
+<button
+type="submit"
+class="save-btn">
+
+💾 Save Changes
+
+</button>
+
+<button
+type="button"
+class="cancel-btn"
+onclick="window.location.href='/profile'">
+
+Cancel
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

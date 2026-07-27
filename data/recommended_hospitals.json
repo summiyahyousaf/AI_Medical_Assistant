@@ -1,0 +1,331 @@
+{
+  "Fungal infection": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult your nearest dermatologist."
+  ],
+
+  "Allergy": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult your nearest allergy clinic."
+  ],
+
+  "GERD": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Doctors Hospital, Lahore",
+    "Consult your nearest gastroenterology center."
+  ],
+
+  "Chronic cholestasis": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult your nearest liver specialist."
+  ],
+
+  "Drug Reaction": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult your nearest dermatologist."
+  ],
+
+  "Peptic ulcer diseae": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Doctors Hospital, Lahore",
+    "Consult your nearest gastroenterology center."
+  ],
+
+  "AIDS": [
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Jinnah Postgraduate Medical Centre (JPMC), Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Consult an infectious disease specialist."
+  ],
+
+  "Diabetes ": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult your nearest endocrinology clinic."
+  ],
+
+  "Gastroenteritis": [
+    "Shifa International Hospital, Islamabad",
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Doctors Hospital, Lahore",
+    "Consult your nearest gastroenterologist."
+  ],
+
+  "Bronchial Asthma": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult your nearest pulmonology department."
+  ],
+
+  "Hypertension ": [
+    "Armed Forces Institute of Cardiology (AFIC), Rawalpindi",
+    "Punjab Institute of Cardiology, Lahore",
+    "National Institute of Cardiovascular Diseases (NICVD), Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Consult your nearest cardiologist."
+  ],
+
+  "Migraine": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Lahore General Hospital, Lahore",
+    "Consult your nearest neurologist."
+  ],
+  
+  "Chicken pox": [
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Shifa International Hospital, Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult your nearest pediatrician or general physician."
+  ],
+
+  "Dengue": [
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Jinnah Postgraduate Medical Centre (JPMC), Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Consult an infectious disease specialist immediately."
+  ],
+
+  "Common Cold": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult your nearest general physician."
+  ],
+
+  "Pneumonia": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Lahore General Hospital, Lahore",
+    "Consult your nearest pulmonologist."
+  ],
+
+  "Jaundice": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult a hepatologist for liver evaluation."
+  ],
+
+  "Malaria": [
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Jinnah Postgraduate Medical Centre (JPMC), Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Consult an infectious disease specialist."
+  ],
+
+  "Typhoid": [
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult an infectious disease specialist."
+  ],
+
+  "Tuberculosis": [
+    "National TB Control Program Centers",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Consult a pulmonologist or chest specialist."
+  ],
+
+  "Hepatitis B": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult a hepatologist."
+  ],
+
+  "Hepatitis C": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult a hepatologist."
+  ],
+  
+  "Hepatitis D": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult a hepatologist for specialized liver care."
+  ],
+
+  "Hepatitis E": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult a hepatologist."
+  ],
+
+  "hepatitis A": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Consult a hepatologist."
+  ],
+
+  "Alcoholic hepatitis": [
+    "Pakistan Kidney and Liver Institute (PKLI), Lahore",
+    "Aga Khan University Hospital, Karachi",
+    "Shifa International Hospital, Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult a hepatologist and addiction specialist if needed."
+  ],
+
+  "Hypoglycemia": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult an endocrinologist immediately for recurrent episodes."
+  ],
+
+  "Hyperthyroidism": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult an endocrinologist."
+  ],
+
+  "Hypothyroidism": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult an endocrinologist."
+  ],
+
+  "Osteoarthristis": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Lahore General Hospital, Lahore",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult an orthopedic surgeon."
+  ],
+
+  "Arthritis": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Lahore General Hospital, Lahore",
+    "Consult a rheumatologist."
+  ],
+
+  "Cervical spondylosis": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Lahore General Hospital, Lahore",
+    "Consult an orthopedic surgeon or spine specialist."
+  ],
+  
+  "Paralysis (brain hemorrhage)": [
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Lahore General Hospital, Lahore",
+    "Consult a neurologist immediately. Seek emergency medical care without delay."
+  ],
+
+  "Heart attack": [
+    "National Institute of Cardiovascular Diseases (NICVD), Karachi",
+    "Armed Forces Institute of Cardiology (AFIC), Rawalpindi",
+    "Punjab Institute of Cardiology (PIC), Lahore",
+    "Shifa International Hospital, Islamabad",
+    "Seek emergency cardiac care immediately."
+  ],
+
+  "Varicose veins": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Doctors Hospital, Lahore",
+    "Consult a vascular surgeon or vascular clinic."
+  ],
+
+  "Urinary tract infection": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult a urologist if infections are recurrent or severe."
+  ],
+
+  "(vertigo) Paroymsal  Positional Vertigo": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult an ENT specialist or neurologist."
+  ],
+
+  "Acne": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult a dermatologist."
+  ],
+
+  "Psoriasis": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult a dermatologist."
+  ],
+
+  "Dimorphic hemmorhoids(piles)": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Doctors Hospital, Lahore",
+    "Consult a colorectal surgeon or general surgeon."
+  ],
+
+  "Impetigo": [
+    "Shifa International Hospital, Islamabad",
+    "Aga Khan University Hospital, Karachi",
+    "Pakistan Institute of Medical Sciences (PIMS), Islamabad",
+    "Combined Military Hospital (CMH), Rawalpindi",
+    "Consult a dermatologist."
+  ]
+}
+
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>AI Disease Prediction</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/base.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/predict.css') }}">
+
+</head>
+
+<body>
+
+<div class="prediction-container">
+
+<div class="prediction-card">
+
+<h1>🩺 AI Disease Prediction</h1>
+
+<p class="subtitle">
+Describe your symptoms and let AI analyze possible health conditions.
+</p>
+
+<form action="/predict" method="POST">
+
+<!-- ================= PATIENT INFORMATION ================= -->
+
+<h2>Patient Information</h2>
+
+<div class="input-grid">
+
+<div>
+
+<label>Full Name</label>
+
+<input
+type="text"
+name="name"
+placeholder="Enter your name"
+required>
+
+</div>
+
+<div>
+
+<label>Age</label>
+
+<input
+type="number"
+name="age"
+placeholder="Enter your age"
+required>
+
+</div>
+
+</div>
+
+<label>Gender</label>
+
+<div class="gender-box">
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Male"
+required>
+Male
+</label>
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Female">
+Female
+</label>
+
+<label>
+<input
+type="radio"
+name="gender"
+value="Other">
+Other
+</label>
+
+</div>
+
+<hr>
+
+<!-- ================= COMMON SYMPTOMS ================= -->
+
+<h2> Any of these Common Symptoms are you Experiencing?</h2>
+
+
+<div class="common-symptoms">
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('high_fever')"> High Fever</label>
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('cough')"> Cough</label>
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('fatigue')"> Fatigue</label>
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('headache')"> Headache</label>
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('vomiting')"> Vomiting</label>
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('nausea')"> Nausea</label>
+
+<label><input type="checkbox" onclick="this.checked && addSymptom('diarrhoea')"> Diarrhoea</label>
+
+</div>
+
+<hr>
+
+<!-- ================= SEARCH ================= -->
+
+<h2>Search for more Symptoms</h2>
+
+<div class="symptom-search">
+
+<input
+type="text"
+id="symptomSearch"
+placeholder="Search symptoms..."
+autocomplete="off">
+
+<div id="symptomDropdown"></div>
+
+</div>
+
+<div id="selectedSymptoms"></div>
+
+<div id="hiddenInputs"></div>
+
+<hr>
+
+<!-- ================= OTHER ================= -->
+
+<h2> Additional Information</h2>
+
+<textarea
+name="other_symptoms"
+rows="5"
+placeholder="Describe anything else you are experiencing..."></textarea>
+
+<br><br>
+
+<button
+type="submit"
+class="predict-btn">
+
+🩺 Predict Disease
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script>
+window.symptoms = {{ symptoms | tojson }};
+</script>
+
+<script src="{{ url_for('static', filename='js/predict.js') }}"></script>
+
+</body>
+
+</html>

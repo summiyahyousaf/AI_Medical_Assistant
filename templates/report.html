@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>AI Medical Report</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/base.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/report.css') }}">
+
+</head>
+
+<body>
+
+<div class="report-container">
+
+<div class="report-card">
+
+<!-- ================= HEADER ================= -->
+
+<div class="report-header">
+
+    <h1>🩺 AI Medical Diagnosis Report</h1>
+
+    <p>
+        AI Powered Healthcare Prediction System
+    </p>
+
+    <div class="report-meta">
+
+        <span>{{ current_date }}</span>
+
+        <span>{{ current_time }}</span>
+
+    </div>
+
+</div>
+
+
+<!-- ================= PATIENT INFORMATION ================= -->
+
+<div class="report-section">
+
+<h2> Patient Information</h2>
+
+<div class="report-grid">
+
+<div class="report-box">
+
+<h3>Full Name</h3>
+
+<p>{{ name }}</p>
+
+</div>
+
+<div class="report-box">
+
+<h3>Age</h3>
+
+<p>{{ age }}</p>
+
+</div>
+
+<div class="report-box">
+
+<h3>Gender</h3>
+
+<p>{{ gender }}</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= AI PREDICTION ================= -->
+
+<div class="report-section">
+
+<h2> AI Prediction Result</h2>
+
+<div class="result-box">
+
+<h1>{{ disease }}</h1>
+
+<div class="confidence-wrapper">
+
+<p>Prediction Confidence</p>
+
+<div class="confidence-bar">
+
+<div
+class="confidence-fill"
+style="width: {{ confidence }}%;">
+
+</div>
+
+</div>
+
+<h3>{{ confidence }}%</h3>
+
+{% if confidence >= 90 %}
+
+<div class="confidence-status">
+
+🟢 High Confidence
+
+</div>
+
+{% elif confidence >= 70 %}
+
+<div class="confidence-status">
+
+🟡 Moderate Confidence
+
+</div>
+
+{% else %}
+
+<div class="confidence-status">
+
+🔴 Low Confidence
+
+</div>
+
+{% endif %}
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= DISEASE OVERVIEW ================= -->
+
+<div class="report-section">
+
+<h2> Disease Overview</h2>
+
+<div class="notes">
+
+<p>
+
+{{ disease_description }}
+
+</p>
+
+</div>
+
+</div>
+
+
+<!-- ================= SYMPTOMS ================= -->
+
+<div class="report-section">
+
+<h2>Selected Symptoms</h2>
+
+<div class="notes">
+
+{% if selected_symptoms %}
+
+<ul>
+
+{% for symptom in selected_symptoms %}
+
+<li>
+
+{{ symptom.replace("_"," ").title() }}
+
+</li>
+
+{% endfor %}
+
+</ul>
+
+{% else %}
+
+<p>
+
+No symptoms selected.
+
+</p>
+
+{% endif %}
+
+</div>
+
+</div>
+
+
+<!-- ================= ADDITIONAL SYMPTOMS ================= -->
+
+<div class="report-section">
+
+<h2> Additional Symptoms</h2>
+
+<div class="notes">
+
+{% if other_symptoms %}
+
+<p>
+
+{{ other_symptoms }}
+
+</p>
+
+{% else %}
+
+<p>
+
+No additional symptoms were provided.
+
+</p>
+
+{% endif %}
+
+</div>
+
+</div>
+
+
+<!-- ================= PRECAUTIONS ================= -->
+
+<div class="report-section">
+
+<h2> Recommended Precautions</h2>
+
+<div class="notes">
+
+<ul>
+
+{% for item in precautions %}
+
+<li>
+
+{{ item }}
+
+</li>
+
+{% endfor %}
+
+</ul>
+
+</div>
+
+</div>
+
+
+<!-- ================= DISCLAIMER ================= -->
+
+<div class="disclaimer-box">
+
+<h2>
+
+⚠ Medical Disclaimer
+
+</h2>
+
+<p>
+
+This medical report has been generated using an Artificial Intelligence
+Machine Learning prediction model.
+
+The prediction is intended solely for educational and informational
+purposes and should not be considered a medical diagnosis.
+
+Always consult a qualified healthcare professional before making
+any medical decisions or beginning any treatment.
+
+</p>
+
+</div>
+
+
+<!-- ================= BUTTONS ================= -->
+
+<div class="report-buttons">
+
+<button
+class="report-btn"
+onclick="window.location.href='/download_pdf'">
+
+📄 Download PDF
+
+</button>
+
+<button
+class="report-btn"
+onclick="window.location.href='/predict'">
+
+ New Prediction
+
+</button>
+
+<button
+class="report-btn"
+onclick="window.location.href='/dashboard'">
+
+ Dashboard
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

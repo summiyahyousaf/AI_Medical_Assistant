@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>My Profile | AI Medical Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/base.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/profile.css') }}">
+
+</head>
+
+<body>
+
+<div class="profile-container">
+
+    <div class="profile-card">
+
+        <div class="profile-avatar">
+            👤
+        </div>
+
+        <h1>My Profile</h1>
+
+        <div class="profile-info">
+
+            <div class="info-box">
+
+                <h3>Full Name</h3>
+
+                <p>{{ name }}</p>
+
+            </div>
+
+            <div class="info-box">
+
+                <h3>Email Address</h3>
+
+                <p>{{ email }}</p>
+
+            </div>
+
+        </div>
+
+        <div class="profile-buttons">
+
+            <button
+                class="profile-btn"
+                onclick="window.location.href='/dashboard'">
+
+                ⬅ Back to Dashboard
+
+            </button>
+
+            <button
+                class="profile-btn secondary-btn"
+                onclick="window.location.href='/edit_profile'">
+
+                ✏ Edit Profile
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

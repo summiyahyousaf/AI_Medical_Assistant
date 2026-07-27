@@ -1,0 +1,158 @@
+/* ===========================
+   LOGIN PAGE
+=========================== */
+
+.login-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#F7FBF8;
+
+    padding:40px;
+
+}
+
+
+/* ===========================
+   LOGIN CARD
+=========================== */
+
+.login-card{
+
+    width:100%;
+
+    max-width:450px;
+
+    background:white;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    padding:40px;
+
+}
+
+
+/* ===========================
+   TITLE
+=========================== */
+
+.login-card h1{
+
+    text-align:center;
+
+    color:#2E7D32;
+
+    margin-bottom:10px;
+
+}
+
+
+.login-subtitle{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ===========================
+   FORM
+=========================== */
+
+.login-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+/* ===========================
+   INPUTS
+=========================== */
+
+.login-form label{
+
+    display:block;
+
+    margin-bottom:6px;
+
+    font-weight:500;
+
+}
+
+
+/* base.css styles the inputs */
+
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.login-btn{
+
+    width:100%;
+
+    margin-top:10px;
+
+}
+
+
+/* ===========================
+   SIGNUP LINK
+=========================== */
+
+.signup-text{
+
+    text-align:center;
+
+    margin-top:25px;
+
+    color:#666;
+
+}
+
+
+.signup-text a{
+
+    color:#2E7D32;
+
+    font-weight:500;
+
+}
+
+
+.signup-text a:hover{
+
+    text-decoration:underline;
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:600px){
+
+.login-card{
+
+    padding:30px 25px;
+
+}
+
+}

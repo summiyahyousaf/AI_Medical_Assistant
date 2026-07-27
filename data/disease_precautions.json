@@ -1,0 +1,413 @@
+{
+  "Fungal infection": [
+    "Keep the affected area clean and dry.",
+    "Maintain good personal hygiene.",
+    "Avoid sharing towels, clothing, or personal items.",
+    "Wear clean, breathable cotton clothing.",
+    "Avoid walking barefoot in public places such as pools or locker rooms.",
+    "Complete the full course of prescribed antifungal medication.",
+    "Consult a dermatologist if symptoms persist or worsen."
+  ],
+
+  "Allergy": [
+    "Identify and avoid known allergens whenever possible.",
+    "Keep your living environment clean and free from dust.",
+    "Wear a mask during high pollen seasons if necessary.",
+    "Read food and medication labels carefully.",
+    "Carry prescribed emergency medication if you have severe allergies.",
+    "Seek immediate medical attention for difficulty breathing or facial swelling.",
+    "Consult an allergist for proper diagnosis and long-term management."
+  ],
+
+  "GERD": [
+    "Avoid spicy, fatty, and acidic foods.",
+    "Eat smaller meals throughout the day.",
+    "Avoid lying down for at least two to three hours after eating.",
+    "Maintain a healthy body weight.",
+    "Limit caffeine, alcohol, and carbonated beverages.",
+    "Stop smoking if applicable.",
+    "Consult a gastroenterologist if symptoms persist."
+  ],
+
+  "Chronic cholestasis": [
+    "Follow your healthcare provider's treatment plan.",
+    "Avoid alcohol completely.",
+    "Eat a balanced, low-fat diet.",
+    "Stay well hydrated.",
+    "Attend regular liver function check-ups.",
+    "Take prescribed medications exactly as directed.",
+    "Consult a liver specialist if symptoms worsen."
+  ],
+
+  "Drug Reaction": [
+    "Stop taking the suspected medication only after consulting a healthcare professional unless it is an emergency.",
+    "Inform your doctor about all medications you are taking.",
+    "Avoid self-medication.",
+    "Carry a record of known drug allergies.",
+    "Seek emergency medical care if breathing becomes difficult.",
+    "Monitor for worsening skin rash or swelling.",
+    "Consult your physician before starting any new medication."
+  ],
+
+  "Peptic ulcer diseae": [
+    "Avoid spicy and highly acidic foods.",
+    "Do not smoke or consume alcohol.",
+    "Avoid unnecessary use of painkillers such as NSAIDs.",
+    "Eat regular, balanced meals.",
+    "Reduce stress through healthy lifestyle habits.",
+    "Complete all prescribed medications.",
+    "Consult a gastroenterologist for persistent symptoms."
+  ],
+
+  "AIDS": [
+    "Take antiretroviral therapy exactly as prescribed.",
+    "Attend regular medical follow-up appointments.",
+    "Practice safe sex and avoid sharing needles.",
+    "Maintain good nutrition and adequate hydration.",
+    "Stay up to date with recommended vaccinations.",
+    "Avoid contact with individuals who have contagious infections.",
+    "Seek immediate medical attention for persistent fever or severe illness."
+  ],
+
+  "Diabetes ": [
+    "Monitor blood sugar levels regularly.",
+    "Follow a balanced diabetic meal plan.",
+    "Exercise regularly as recommended by your physician.",
+    "Take insulin or medications exactly as prescribed.",
+    "Inspect your feet daily for cuts or wounds.",
+    "Attend regular eye, kidney, and foot examinations.",
+    "Consult your doctor if blood sugar remains uncontrolled."
+  ],
+
+  "Gastroenteritis": [
+    "Drink plenty of fluids to prevent dehydration.",
+    "Wash hands thoroughly before eating and after using the restroom.",
+    "Eat light, easily digestible foods during recovery.",
+    "Avoid dairy products and greasy foods until symptoms improve.",
+    "Get adequate rest.",
+    "Seek medical attention if symptoms persist or severe dehydration develops.",
+    "Maintain proper food hygiene to prevent future infections."
+  ],
+
+  "Bronchial Asthma": [
+    "Avoid exposure to smoke, dust, and other known triggers.",
+    "Carry your rescue inhaler at all times.",
+    "Take controller medications exactly as prescribed.",
+    "Exercise only after medical advice if exercise triggers symptoms.",
+    "Receive recommended vaccinations such as influenza vaccine.",
+    "Monitor your breathing regularly.",
+    "Seek emergency care for severe breathing difficulty."
+  ],
+
+  "Hypertension ": [
+    "Reduce salt intake in your diet.",
+    "Exercise regularly.",
+    "Maintain a healthy body weight.",
+    "Take blood pressure medications exactly as prescribed.",
+    "Avoid smoking and excessive alcohol consumption.",
+    "Monitor your blood pressure regularly.",
+    "Attend routine medical check-ups."
+  ],
+
+  "Migraine": [
+    "Identify and avoid personal migraine triggers.",
+    "Maintain a regular sleep schedule.",
+    "Stay adequately hydrated.",
+    "Manage stress through relaxation techniques.",
+    "Avoid skipping meals.",
+    "Limit excessive caffeine and alcohol intake.",
+    "Consult a neurologist if migraines become frequent or severe."
+  ]
+,
+  "Chicken pox": [
+    "Stay at home until all blisters have crusted over.",
+    "Avoid scratching the blisters to prevent infection.",
+    "Maintain good personal hygiene.",
+    "Drink plenty of fluids to stay hydrated.",
+    "Wear loose, comfortable clothing.",
+    "Avoid contact with pregnant women, newborns, and immunocompromised individuals.",
+    "Consult a physician if breathing difficulty or severe symptoms develop."
+  ],
+
+  "Dengue": [
+    "Drink plenty of fluids to prevent dehydration.",
+    "Get adequate bed rest.",
+    "Avoid aspirin and ibuprofen unless prescribed by a doctor.",
+    "Use mosquito nets and insect repellents.",
+    "Wear long-sleeved clothing to prevent mosquito bites.",
+    "Monitor for warning signs such as bleeding or severe abdominal pain.",
+    "Seek immediate medical care if symptoms worsen."
+  ],
+
+  "Common Cold": [
+    "Get plenty of rest.",
+    "Drink warm fluids and stay hydrated.",
+    "Wash your hands frequently.",
+    "Cover your mouth and nose when coughing or sneezing.",
+    "Avoid close contact with others while symptomatic.",
+    "Eat a balanced and nutritious diet.",
+    "Consult a doctor if symptoms persist for more than 10 days."
+  ],
+
+  "Pneumonia": [
+    "Take all prescribed antibiotics or medications as directed.",
+    "Get adequate rest.",
+    "Drink plenty of fluids.",
+    "Avoid smoking and secondhand smoke.",
+    "Monitor breathing and body temperature regularly.",
+    "Attend follow-up medical appointments.",
+    "Seek emergency care if breathing becomes severely difficult."
+  ],
+
+  "Jaundice": [
+    "Avoid alcohol completely.",
+    "Drink adequate amounts of water.",
+    "Eat a balanced, low-fat diet.",
+    "Take medications only under medical supervision.",
+    "Get sufficient rest.",
+    "Attend regular liver function evaluations.",
+    "Consult a physician immediately if symptoms worsen."
+  ],
+
+  "Malaria": [
+    "Complete the full course of antimalarial medication.",
+    "Stay well hydrated.",
+    "Get adequate rest.",
+    "Sleep under insecticide-treated mosquito nets.",
+    "Use mosquito repellents regularly.",
+    "Wear protective clothing outdoors.",
+    "Seek immediate medical attention for persistent high fever."
+  ],
+
+  "Typhoid": [
+    "Complete the prescribed antibiotic course.",
+    "Drink boiled or purified water.",
+    "Practice proper hand hygiene.",
+    "Avoid raw or contaminated food.",
+    "Eat light and nutritious meals.",
+    "Get sufficient rest.",
+    "Seek medical attention if fever persists or worsens."
+  ],
+
+  "Tuberculosis": [
+    "Complete the full course of anti-tuberculosis medication.",
+    "Cover your mouth when coughing or sneezing.",
+    "Wear a mask if advised by your healthcare provider.",
+    "Ensure proper ventilation in living spaces.",
+    "Attend all scheduled follow-up appointments.",
+    "Maintain a healthy diet to support recovery.",
+    "Avoid close contact with others until your doctor confirms you are no longer infectious."
+  ],
+
+  "Hepatitis B": [
+    "Avoid alcohol completely.",
+    "Take antiviral medications only as prescribed.",
+    "Do not share razors, toothbrushes, or needles.",
+    "Practice safe sex.",
+    "Eat a healthy, balanced diet.",
+    "Attend regular liver function check-ups.",
+    "Consult a liver specialist for long-term management."
+  ],
+
+  "Hepatitis C": [
+    "Take antiviral treatment exactly as prescribed.",
+    "Avoid alcohol consumption.",
+    "Do not share needles or personal hygiene items.",
+    "Maintain a nutritious and balanced diet.",
+    "Attend regular liver health evaluations.",
+    "Practice safe sex when appropriate.",
+    "Consult a hepatologist for ongoing care."
+  ],
+    "Hepatitis D": [
+    "Avoid alcohol completely.",
+    "Take all prescribed antiviral medications as directed.",
+    "Attend regular liver function check-ups.",
+    "Maintain a healthy, balanced diet.",
+    "Do not share needles or personal hygiene items.",
+    "Practice safe sex to prevent transmission.",
+    "Consult a hepatologist for ongoing management."
+  ],
+
+  "Hepatitis E": [
+    "Drink only clean and purified water.",
+    "Practice proper hand hygiene.",
+    "Eat freshly prepared and well-cooked food.",
+    "Get plenty of rest.",
+    "Stay well hydrated.",
+    "Avoid alcohol until fully recovered.",
+    "Seek medical attention if jaundice or severe symptoms develop."
+  ],
+
+  "hepatitis A": [
+    "Wash hands thoroughly before eating and after using the restroom.",
+    "Drink safe and clean water.",
+    "Avoid contaminated food.",
+    "Get adequate rest.",
+    "Maintain a nutritious diet.",
+    "Avoid alcohol during recovery.",
+    "Follow your physician's recommendations until complete recovery."
+  ],
+
+  "Alcoholic hepatitis": [
+    "Stop drinking alcohol completely.",
+    "Follow a healthy, liver-friendly diet.",
+    "Take medications only as prescribed.",
+    "Attend regular liver health evaluations.",
+    "Maintain proper hydration.",
+    "Avoid medications that may damage the liver unless prescribed.",
+    "Consult a hepatologist for long-term treatment."
+  ],
+
+  "Hypoglycemia": [
+    "Monitor blood glucose levels regularly.",
+    "Never skip meals.",
+    "Carry a fast-acting source of sugar such as glucose tablets.",
+    "Take diabetes medications exactly as prescribed.",
+    "Inform family members about emergency treatment.",
+    "Avoid excessive alcohol consumption.",
+    "Seek immediate medical care if unconsciousness or seizures occur."
+  ],
+
+  "Hyperthyroidism": [
+    "Take thyroid medications exactly as prescribed.",
+    "Attend regular thyroid function tests.",
+    "Avoid excessive caffeine intake.",
+    "Manage stress through relaxation techniques.",
+    "Eat a balanced and nutritious diet.",
+    "Avoid smoking.",
+    "Consult an endocrinologist regularly."
+  ],
+
+  "Hypothyroidism": [
+    "Take thyroid hormone replacement medication daily.",
+    "Do not miss scheduled follow-up appointments.",
+    "Eat a balanced diet rich in nutrients.",
+    "Exercise regularly as advised by your doctor.",
+    "Take medication on an empty stomach unless otherwise instructed.",
+    "Monitor your symptoms regularly.",
+    "Consult an endocrinologist for dosage adjustments."
+  ],
+
+  "Osteoarthristis": [
+    "Maintain a healthy body weight.",
+    "Exercise regularly to strengthen muscles around the joints.",
+    "Avoid excessive strain on affected joints.",
+    "Use supportive footwear if needed.",
+    "Practice proper posture during daily activities.",
+    "Take prescribed pain medications as directed.",
+    "Consult an orthopedic specialist or physiotherapist if symptoms worsen."
+  ],
+
+  "Arthritis": [
+    "Stay physically active with low-impact exercises.",
+    "Maintain a healthy body weight.",
+    "Protect joints from unnecessary strain.",
+    "Apply warm or cold compresses for pain relief.",
+    "Take medications exactly as prescribed.",
+    "Attend regular medical follow-up appointments.",
+    "Consult a rheumatologist for long-term disease management."
+  ],
+
+  "Cervical spondylosis": [
+    "Maintain proper neck posture while sitting and working.",
+    "Perform neck stretching exercises as recommended.",
+    "Avoid lifting heavy objects.",
+    "Use an ergonomic chair and workstation.",
+    "Sleep with proper neck support.",
+    "Take prescribed pain medications if necessary.",
+    "Consult an orthopedic specialist or neurologist if symptoms worsen."
+  ],
+    "Paralysis (brain hemorrhage)": [
+    "Seek emergency medical attention immediately if symptoms appear.",
+    "Take all prescribed medications exactly as directed.",
+    "Attend regular neurological rehabilitation sessions.",
+    "Control blood pressure and blood sugar levels.",
+    "Avoid smoking and excessive alcohol consumption.",
+    "Follow a heart-healthy, low-sodium diet.",
+    "Consult a neurologist regularly for ongoing care."
+  ],
+
+  "Heart attack": [
+    "Call emergency medical services immediately if symptoms occur.",
+    "Take prescribed heart medications without missing doses.",
+    "Follow a heart-healthy diet low in saturated fat and salt.",
+    "Exercise regularly after medical clearance.",
+    "Quit smoking and avoid tobacco products.",
+    "Monitor blood pressure, cholesterol, and blood sugar regularly.",
+    "Attend regular follow-up visits with your cardiologist."
+  ],
+
+  "Varicose veins": [
+    "Avoid standing or sitting for long periods.",
+    "Elevate your legs whenever possible.",
+    "Wear compression stockings if recommended by your doctor.",
+    "Exercise regularly to improve circulation.",
+    "Maintain a healthy body weight.",
+    "Avoid tight clothing that restricts blood flow.",
+    "Consult a vascular specialist if pain or swelling worsens."
+  ],
+
+  "Urinary tract infection": [
+    "Drink plenty of water every day.",
+    "Complete the full course of prescribed antibiotics.",
+    "Maintain proper personal hygiene.",
+    "Avoid holding urine for long periods.",
+    "Urinate after sexual activity when appropriate.",
+    "Avoid excessive caffeine and alcohol during recovery.",
+    "Consult a healthcare provider if symptoms return."
+  ],
+
+  "(vertigo) Paroymsal  Positional Vertigo": [
+    "Move your head slowly to avoid triggering dizziness.",
+    "Avoid sudden changes in head position.",
+    "Use support while walking if balance is affected.",
+    "Stay well hydrated.",
+    "Perform vestibular exercises if recommended by your doctor.",
+    "Avoid driving during severe vertigo episodes.",
+    "Consult an ENT specialist or neurologist for persistent symptoms."
+  ],
+
+  "Acne": [
+    "Wash your face gently twice daily.",
+    "Avoid picking or squeezing pimples.",
+    "Use non-comedogenic skincare products.",
+    "Keep your skin clean and moisturized.",
+    "Avoid excessive touching of your face.",
+    "Maintain a balanced diet and healthy lifestyle.",
+    "Consult a dermatologist for persistent or severe acne."
+  ],
+
+  "Psoriasis": [
+    "Keep your skin moisturized daily.",
+    "Avoid skin injuries and excessive scratching.",
+    "Manage stress through healthy coping techniques.",
+    "Avoid smoking and excessive alcohol intake.",
+    "Follow your prescribed treatment plan consistently.",
+    "Protect your skin from excessive sun exposure.",
+    "Consult a dermatologist regularly for disease management."
+  ],
+
+  "Dimorphic hemmorhoids(piles)": [
+    "Eat a high-fiber diet.",
+    "Drink plenty of water.",
+    "Avoid prolonged sitting on the toilet.",
+    "Exercise regularly to prevent constipation.",
+    "Avoid excessive straining during bowel movements.",
+    "Maintain good anal hygiene.",
+    "Consult a colorectal surgeon if bleeding or pain persists."
+  ],
+
+  "Impetigo": [
+    "Keep the affected skin clean and dry.",
+    "Wash hands frequently to prevent spreading the infection.",
+    "Avoid scratching the affected area.",
+    "Do not share towels, clothing, or personal items.",
+    "Complete the full course of prescribed antibiotics.",
+    "Keep infected children away from school until advised by a doctor.",
+    "Consult a dermatologist if symptoms worsen or spread."
+  ]
+}
+
+
+
+

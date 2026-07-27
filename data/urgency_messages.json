@@ -1,0 +1,6 @@
+{
+    "Emergency": "Seek immediate emergency medical care.",
+    "High": "Consult a doctor as soon as possible.",
+    "Moderate": "Schedule a medical consultation if symptoms persist.",
+    "Low": "Home care may be appropriate, but consult a doctor if symptoms worsen."
+}

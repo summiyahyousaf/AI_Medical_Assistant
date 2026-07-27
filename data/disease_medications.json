@@ -1,0 +1,411 @@
+{
+  "Fungal infection": [
+    "Clotrimazole (Topical antifungal)",
+    "Miconazole (Topical antifungal)",
+    "Terbinafine (Antifungal)",
+    "Fluconazole (Oral antifungal)",
+    "Ketoconazole cream",
+    "Nystatin (For Candida infections)",
+    "Consult a dermatologist before starting treatment."
+  ],
+
+  "Allergy": [
+    "Cetirizine (Antihistamine)",
+    "Loratadine (Antihistamine)",
+    "Fexofenadine (Antihistamine)",
+    "Diphenhydramine (Antihistamine)",
+    "Hydrocortisone cream (For skin allergy)",
+    "Epinephrine auto-injector (For severe allergic reactions)",
+    "Consult an allergist for appropriate treatment."
+  ],
+
+  "GERD": [
+    "Omeprazole (Proton Pump Inhibitor)",
+    "Pantoprazole (Proton Pump Inhibitor)",
+    "Esomeprazole (Proton Pump Inhibitor)",
+    "Famotidine (H2 Blocker)",
+    "Calcium Carbonate Antacid",
+    "Gaviscon (Antacid)",
+    "Consult a gastroenterologist before long-term use."
+  ],
+
+  "Chronic cholestasis": [
+    "Ursodeoxycholic Acid (UDCA)",
+    "Cholestyramine (For itching)",
+    "Vitamin A supplements",
+    "Vitamin D supplements",
+    "Vitamin E supplements",
+    "Vitamin K supplements",
+    "Treatment should always be supervised by a hepatologist."
+  ],
+
+  "Drug Reaction": [
+    "Antihistamines (e.g., Cetirizine)",
+    "Hydrocortisone cream",
+    "Prednisolone (Only if prescribed)",
+    "Moisturizing creams",
+    "Epinephrine (Emergency use for anaphylaxis)",
+    "Immediate discontinuation of the offending drug under medical supervision",
+    "Consult a physician immediately."
+  ],
+
+  "Peptic ulcer diseae": [
+    "Omeprazole",
+    "Pantoprazole",
+    "Esomeprazole",
+    "Sucralfate",
+    "Amoxicillin (For H. pylori infection)",
+    "Clarithromycin (For H. pylori infection)",
+    "Treatment should follow a physician's prescription."
+  ],
+
+  "AIDS": [
+    "Tenofovir",
+    "Lamivudine",
+    "Dolutegravir",
+    "Efavirenz",
+    "Emtricitabine",
+    "Antiretroviral combination therapy (ART)",
+    "Treatment must be managed by an infectious disease specialist."
+  ],
+
+  "Diabetes ": [
+    "Metformin",
+    "Insulin",
+    "Glimepiride",
+    "Gliclazide",
+    "Empagliflozin",
+    "Sitagliptin",
+    "Medication should be individualized by an endocrinologist."
+  ],
+
+  "Gastroenteritis": [
+    "Oral Rehydration Solution (ORS)",
+    "Zinc supplements (especially in children)",
+    "Paracetamol (For fever)",
+    "Ondansetron (For vomiting, if prescribed)",
+    "Probiotics",
+    "Antibiotics only when prescribed for bacterial infections",
+    "Consult a physician if symptoms persist."
+  ],
+
+  "Bronchial Asthma": [
+    "Salbutamol Inhaler",
+    "Budesonide Inhaler",
+    "Formoterol Inhaler",
+    "Montelukast",
+    "Prednisolone (During severe attacks)",
+    "Combination inhalers (LABA + ICS)",
+    "Treatment should be supervised by a pulmonologist."
+  ],
+
+  "Hypertension ": [
+    "Amlodipine",
+    "Losartan",
+    "Lisinopril",
+    "Hydrochlorothiazide",
+    "Atenolol",
+    "Valsartan",
+    "Medication should be selected by a cardiologist or physician."
+  ],
+
+  "Migraine": [
+    "Paracetamol",
+    "Ibuprofen",
+    "Sumatriptan",
+    "Rizatriptan",
+    "Naproxen",
+    "Topiramate (Prevention)",
+    "Consult a neurologist for frequent migraines."
+  ],
+  
+  "Chicken pox": [
+    "Paracetamol (For fever)",
+    "Calamine lotion (For itching)",
+    "Acyclovir (Antiviral, when prescribed)",
+    "Cetirizine (For itching)",
+    "Oral Rehydration Solution (ORS)",
+    "Topical antiseptic lotion",
+    "Consult a physician before starting antiviral therapy."
+  ],
+
+  "Dengue": [
+    "Paracetamol (For fever and pain)",
+    "Oral Rehydration Solution (ORS)",
+    "Intravenous fluids (Hospital use if required)",
+    "Electrolyte replacement solution",
+    "Vitamin supplements (If advised)",
+    "Platelet transfusion (Only in severe cases)",
+    "Avoid aspirin and ibuprofen; consult a physician immediately."
+  ],
+
+  "Common Cold": [
+    "Paracetamol",
+    "Ibuprofen",
+    "Cetirizine",
+    "Loratadine",
+    "Saline nasal spray",
+    "Dextromethorphan (For cough)",
+    "Consult a physician if symptoms persist beyond 10 days."
+  ],
+
+  "Pneumonia": [
+    "Amoxicillin",
+    "Azithromycin",
+    "Ceftriaxone",
+    "Paracetamol",
+    "Salbutamol inhaler (If wheezing is present)",
+    "Oxygen therapy (Hospital use when required)",
+    "Antibiotic treatment should only be taken under medical supervision."
+  ],
+
+  "Jaundice": [
+    "Vitamin supplements",
+    "Intravenous fluids (If dehydrated)",
+    "Ursodeoxycholic Acid (Certain liver conditions)",
+    "Lactulose (If prescribed)",
+    "Paracetamol (Only when approved by a physician)",
+    "Supportive liver medications",
+    "Consult a hepatologist for appropriate treatment."
+  ],
+
+  "Malaria": [
+    "Artemether-Lumefantrine",
+    "Chloroquine (Where effective)",
+    "Primaquine",
+    "Quinine",
+    "Paracetamol",
+    "Oral Rehydration Solution (ORS)",
+    "Treatment should follow laboratory confirmation and physician advice."
+  ],
+
+  "Typhoid": [
+    "Cefixime",
+    "Azithromycin",
+    "Ceftriaxone",
+    "Paracetamol",
+    "Oral Rehydration Solution (ORS)",
+    "Probiotics",
+    "Complete the full antibiotic course as prescribed by a physician."
+  ],
+
+  "Tuberculosis": [
+    "Isoniazid",
+    "Rifampicin",
+    "Pyrazinamide",
+    "Ethambutol",
+    "Vitamin B6 (Pyridoxine)",
+    "Fixed-dose combination anti-TB therapy",
+    "Tuberculosis treatment must always be supervised by a specialist."
+  ],
+
+  "Hepatitis B": [
+    "Tenofovir",
+    "Entecavir",
+    "Pegylated Interferon Alfa",
+    "Vitamin supplements",
+    "Liver supportive medications",
+    "Intravenous fluids (If required)",
+    "Consult a hepatologist before starting antiviral therapy."
+  ],
+
+  "Hepatitis C": [
+    "Sofosbuvir",
+    "Ledipasvir",
+    "Velpatasvir",
+    "Glecaprevir",
+    "Pibrentasvir",
+    "Vitamin supplements",
+    "Treatment should be individualized by a liver specialist."
+  ],
+  
+  "Hepatitis D": [
+    "Pegylated Interferon Alfa",
+    "Tenofovir (If Hepatitis B is present)",
+    "Entecavir",
+    "Vitamin supplements",
+    "Liver supportive medications",
+    "Intravenous fluids (If required)",
+    "Consult a hepatologist for specialized treatment."
+  ],
+
+  "Hepatitis E": [
+    "Oral Rehydration Solution (ORS)",
+    "Paracetamol (If recommended by physician)",
+    "Vitamin supplements",
+    "Intravenous fluids (If dehydrated)",
+    "Liver supportive medications",
+    "Nutritional supplements",
+    "Most cases require supportive care under medical supervision."
+  ],
+
+  "hepatitis A": [
+    "Oral Rehydration Solution (ORS)",
+    "Paracetamol (If advised by physician)",
+    "Vitamin supplements",
+    "Intravenous fluids (If necessary)",
+    "Liver supportive medications",
+    "Electrolyte replacement",
+    "Supportive treatment is usually sufficient."
+  ],
+
+  "Alcoholic hepatitis": [
+    "Prednisolone (Selected severe cases)",
+    "Pentoxifylline",
+    "Vitamin B Complex",
+    "Thiamine (Vitamin B1)",
+    "Folic Acid",
+    "Liver supportive medications",
+    "Treatment must be supervised by a hepatologist."
+  ],
+
+  "Hypoglycemia": [
+    "Glucose tablets",
+    "Oral glucose solution",
+    "Intravenous Dextrose (Hospital use)",
+    "Glucagon injection (Emergency use)",
+    "Fruit juice (Immediate sugar source)",
+    "Glucose gel",
+    "Seek emergency medical care for severe episodes."
+  ],
+
+  "Hyperthyroidism": [
+    "Methimazole",
+    "Carbimazole",
+    "Propylthiouracil (PTU)",
+    "Propranolol",
+    "Atenolol",
+    "Radioactive iodine therapy (Specialist treatment)",
+    "Consult an endocrinologist before treatment."
+  ],
+
+  "Hypothyroidism": [
+    "Levothyroxine",
+    "Liothyronine (Selected cases)",
+    "Vitamin D supplements",
+    "Calcium supplements (If needed)",
+    "Iron supplements (If deficient)",
+    "Multivitamins",
+    "Thyroid medication dosage should be monitored regularly."
+  ],
+
+  "Osteoarthristis": [
+    "Paracetamol",
+    "Ibuprofen",
+    "Naproxen",
+    "Diclofenac gel",
+    "Celecoxib",
+    "Glucosamine supplements",
+    "Consult an orthopedic specialist before long-term medication use."
+  ],
+
+  "Arthritis": [
+    "Ibuprofen",
+    "Naproxen",
+    "Diclofenac",
+    "Methotrexate (For rheumatoid arthritis)",
+    "Sulfasalazine",
+    "Prednisolone",
+    "Consult a rheumatologist for disease-specific treatment."
+  ],
+
+  "Cervical spondylosis": [
+    "Paracetamol",
+    "Ibuprofen",
+    "Diclofenac",
+    "Tizanidine (Muscle relaxant)",
+    "Cyclobenzaprine",
+    "Pregabalin (If nerve pain is present)",
+    "Consult an orthopedic specialist or neurologist."
+  ],
+
+  "Paralysis (brain hemorrhage)": [
+    "Aspirin (Only if prescribed and not contraindicated)",
+    "Clopidogrel",
+    "Mannitol (Hospital use)",
+    "Amlodipine (Blood pressure control)",
+    "Levetiracetam (If seizures occur)",
+    "Physiotherapy medications as prescribed",
+    "Immediate hospital treatment and neurologist supervision are essential."
+  ],
+
+  "Heart attack": [
+    "Aspirin",
+    "Clopidogrel",
+    "Nitroglycerin",
+    "Atorvastatin",
+    "Metoprolol",
+    "Heparin (Hospital use)",
+    "Emergency treatment by a cardiologist is mandatory."
+  ],
+
+  "Varicose veins": [
+    "Diosmin",
+    "Hesperidin",
+    "Ibuprofen",
+    "Paracetamol",
+    "Compression therapy",
+    "Topical anti-inflammatory gel",
+    "Consult a vascular surgeon if symptoms become severe."
+  ],
+
+  "Urinary tract infection": [
+    "Nitrofurantoin",
+    "Trimethoprim-Sulfamethoxazole",
+    "Fosfomycin",
+    "Ciprofloxacin (When prescribed)",
+    "Amoxicillin-Clavulanate",
+    "Paracetamol",
+    "Complete the full antibiotic course prescribed by your physician."
+  ],
+
+  "(vertigo) Paroymsal  Positional Vertigo": [
+    "Betahistine",
+    "Meclizine",
+    "Dimenhydrinate",
+    "Prochlorperazine",
+    "Ondansetron (For nausea)",
+    "Vestibular rehabilitation therapy",
+    "Consult an ENT specialist or neurologist."
+  ],
+
+  "Acne": [
+    "Benzoyl Peroxide",
+    "Adapalene",
+    "Tretinoin",
+    "Clindamycin Gel",
+    "Doxycycline",
+    "Isotretinoin (Severe acne only)",
+    "Consult a dermatologist before starting treatment."
+  ],
+
+  "Psoriasis": [
+    "Hydrocortisone Cream",
+    "Betamethasone Cream",
+    "Calcipotriol",
+    "Coal Tar Preparations",
+    "Methotrexate",
+    "Biologic medications (Severe cases)",
+    "Treatment should be supervised by a dermatologist."
+  ],
+
+  "Dimorphic hemmorhoids(piles)": [
+    "Hydrocortisone Cream",
+    "Lidocaine Ointment",
+    "Witch Hazel Pads",
+    "Psyllium Fiber Supplement",
+    "Docusate Sodium",
+    "Paracetamol",
+    "Consult a colorectal surgeon if symptoms persist."
+  ],
+
+  "Impetigo": [
+    "Mupirocin Ointment",
+    "Fusidic Acid Cream",
+    "Cephalexin",
+    "Dicloxacillin",
+    "Amoxicillin-Clavulanate",
+    "Paracetamol",
+    "Complete the full antibiotic course prescribed by your physician."
+  ]
+}

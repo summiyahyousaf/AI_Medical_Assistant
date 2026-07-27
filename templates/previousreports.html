@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Previous Medical Reports</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/base.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/previousreports.css') }}">
+
+</head>
+
+<body>
+
+<div class="reports-container">
+
+    <h1>📋 Previous Medical Reports</h1>
+
+    {% if reports %}
+
+    <div class="table-card">
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>ID</th>
+
+                    <th>Name</th>
+
+                    <th>Age</th>
+
+                    <th>Gender</th>
+
+                    <th>Disease</th>
+
+                    <th>Confidence</th>
+
+                    <th>Date</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+            {% for report in reports %}
+
+                <tr>
+
+                    <td>{{ report[0] }}</td>
+
+                    <td>{{ report[1] }}</td>
+
+                    <td>{{ report[2] }}</td>
+
+                    <td>{{ report[3] }}</td>
+
+                    <td>{{ report[4] }}</td>
+
+                    <td>{{ report[5] }}%</td>
+
+                    <td>{{ report[7] }}</td>
+
+                </tr>
+
+            {% endfor %}
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    {% else %}
+
+    <div class="table-card no-report">
+
+        <h2>No Previous Reports Found</h2>
+
+        <p>Your saved reports will appear here after making predictions.</p>
+
+    </div>
+
+    {% endif %}
+
+    <button
+        class="back-btn"
+        onclick="window.location.href='/dashboard'">
+
+        ⬅ Back to Dashboard
+
+    </button>
+
+</div>
+
+</body>
+
+</html>

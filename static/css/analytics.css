@@ -1,0 +1,193 @@
+/* ===========================
+   ANALYTICS PAGE
+=========================== */
+
+.analytics-container{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 0;
+
+}
+
+
+/* ===========================
+   TITLE
+=========================== */
+
+.analytics-container h1{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+}
+
+
+/* ===========================
+   TOP CARDS
+=========================== */
+
+.analytics-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+
+.analytics-cards .card{
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+
+.analytics-cards .card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+
+.analytics-cards h3{
+
+    color:#2E7D32;
+
+    margin-bottom:15px;
+
+    font-weight:600;
+
+}
+
+
+.analytics-cards h2{
+
+    color:#2F3E46;
+
+    font-size:34px;
+
+    font-weight:600;
+
+}
+
+
+/* ===========================
+   CHART SECTION
+=========================== */
+
+.chart-box{
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    padding:35px;
+
+    margin-top:30px;
+
+    text-align:center;
+
+}
+
+
+.chart-box h2{
+
+    color:#2E7D32;
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+
+.chart-box img{
+
+    width:100%;
+
+    max-width:850px;
+
+    border-radius:12px;
+
+}
+
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.analytics-container button{
+
+    display:block;
+
+    margin:40px auto 0;
+
+}
+
+
+/* ===========================
+   NO REPORTS
+=========================== */
+
+.analytics-container h2{
+
+    text-align:center;
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.analytics-container{
+
+    width:95%;
+
+}
+
+.analytics-cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.chart-box{
+
+    padding:20px;
+
+}
+
+.analytics-cards h2{
+
+    font-size:28px;
+
+}
+
+}

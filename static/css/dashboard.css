@@ -1,0 +1,553 @@
+/* ===========================
+   DASHBOARD LAYOUT
+=========================== */
+
+
+.app-layout{
+
+    display:flex;
+
+    min-height:100vh;
+
+    background:#F7FBF8;
+
+}
+
+
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+
+.sidebar{
+
+    width:260px;
+
+    background:white;
+
+    box-shadow:4px 0 20px rgba(0,0,0,.08);
+
+    padding:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    bottom:0;
+
+    z-index:1000;
+
+}
+
+
+
+/* ===========================
+   LOGO
+=========================== */
+
+
+.logo{
+
+    font-size:22px;
+
+    font-weight:700;
+
+    color:#2E7D32;
+
+    margin-bottom:35px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+
+
+/* ===========================
+   SIDEBAR MENU
+=========================== */
+
+
+.sidebar-menu{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+
+.sidebar-menu a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    color:#555;
+
+    padding:14px 16px;
+
+    border-radius:12px;
+
+    font-size:15px;
+
+    transition:.3s;
+
+}
+
+
+
+.sidebar-menu a:hover{
+
+    background:#E8F5E9;
+
+    color:#2E7D32;
+
+    transform:translateX(5px);
+
+}
+
+
+
+.sidebar-menu .active{
+
+    background:#2E7D32;
+
+    color:white;
+
+}
+
+
+
+/* ===========================
+   SIDEBAR BOTTOM
+=========================== */
+
+
+.sidebar-bottom{
+
+    margin-top:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+
+.sidebar-bottom a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    text-decoration:none;
+
+    padding:14px 16px;
+
+    border-radius:12px;
+
+    color:#555;
+
+    transition:.3s;
+
+}
+
+
+
+.sidebar-bottom a:hover{
+
+    background:#E8F5E9;
+
+    color:#2E7D32;
+
+}
+
+
+
+/* Logout */
+
+.sidebar-bottom a:last-child{
+
+    color:#8B1E1E;
+
+}
+
+
+
+.sidebar-bottom a:last-child:hover{
+
+    background:#FFEBEE;
+
+}
+
+
+
+/* ===========================
+   MAIN CONTENT
+=========================== */
+
+
+.dashboard-content{
+
+    margin-left:260px;
+
+    width:calc(100% - 260px);
+
+    padding:45px;
+
+}
+
+
+
+/* ===========================
+   WELCOME SECTION
+=========================== */
+
+
+.welcome-box{
+
+    background:white;
+
+    border-radius:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    padding:40px;
+
+    margin-bottom:40px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.welcome-text{
+
+    max-width:750px;
+
+}
+
+
+
+.welcome-box h1{
+
+    color:#2E7D32;
+
+    font-size:34px;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.welcome-box p{
+
+    color:#666;
+
+    font-size:17px;
+
+}
+
+
+
+/* Medical Icon */
+
+.welcome-icon{
+
+    width:130px;
+
+    height:130px;
+
+    border-radius:50%;
+
+    background:#E8F5E9;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:70px;
+
+}
+
+
+
+
+
+/* ===========================
+   DASHBOARD GRID
+=========================== */
+
+
+.dashboard-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+
+
+
+
+/* ===========================
+   DASHBOARD CARDS
+=========================== */
+
+
+.dashboard-card{
+
+    background:white;
+
+    border-radius:22px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    padding:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.12);
+
+}
+
+
+
+/* Top green line */
+
+.dashboard-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:5px;
+
+    background:#2E7D32;
+
+}
+
+
+
+/* Card Icon */
+
+.card-icon{
+
+    font-size:45px;
+
+    margin-bottom:18px;
+
+}
+
+
+
+/* Title */
+
+
+.dashboard-title{
+
+    color:#2E7D32;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-bottom:12px;
+
+}
+
+
+
+/* Description */
+
+
+.dashboard-description{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* ===========================
+   BUTTON
+=========================== */
+
+
+.dashboard-btn{
+
+    display:block;
+
+    text-align:center;
+
+    background:#2E7D32;
+
+    color:white;
+
+    padding:13px;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+
+
+.dashboard-btn:hover{
+
+    background:#256D28;
+
+    transform:translateY(-3px);
+
+}
+
+
+
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+
+@media(max-width:768px){
+
+
+.sidebar{
+
+    width:80px;
+
+    padding:15px;
+
+}
+
+
+.logo{
+
+    font-size:0;
+
+}
+
+
+.sidebar-menu a,
+.sidebar-bottom a{
+
+    justify-content:center;
+
+    font-size:0;
+
+}
+
+
+
+.dashboard-content{
+
+    margin-left:80px;
+
+    width:calc(100% - 80px);
+
+    padding:25px;
+
+}
+
+
+
+.welcome-box{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    gap:25px;
+
+}
+
+
+
+.welcome-icon{
+
+    width:100px;
+
+    height:100px;
+
+    font-size:50px;
+
+}
+
+
+
+.dashboard-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+}

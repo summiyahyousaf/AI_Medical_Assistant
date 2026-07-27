@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>AI Medical Assistant</title>
+
+
+<!-- Base CSS -->
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/base.css') }}">
+
+
+<!-- Assistant CSS -->
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/assistant.css') }}">
+
+
+</head>
+
+
+
+<body>
+
+
+<!-- ==========================
+     ASSISTANT PAGE
+========================== -->
+
+
+<div class="assistant-page">
+
+
+
+    <h1>
+        🩺 AI Medical Assistant
+    </h1>
+
+
+    <p class="assistant-subtitle">
+
+        Ask health-related questions to your AI assistant.
+
+    </p>
+
+
+
+</div>
+
+
+
+
+
+<!-- ==========================
+     FLOATING AI BUTTON
+========================== -->
+
+
+<div id="chat-toggle">
+
+    💬
+
+</div>
+
+
+
+
+
+<!-- ==========================
+     CHAT WINDOW
+========================== -->
+
+
+<div id="chat-window">
+
+
+    <!-- HEADER -->
+
+    <div class="chat-header">
+
+
+        <h2>
+            🩺 AI Assistant
+        </h2>
+
+
+
+        <button id="close-chat">
+
+            &times;
+
+        </button>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- MESSAGES -->
+
+
+    <div id="chat-messages">
+
+
+        <div class="bot-message">
+
+
+            👋 Hello! I'm your AI Medical Assistant.
+
+            <br><br>
+
+            How can I help you today?
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- INPUT -->
+
+
+    <div class="chat-input-area">
+
+
+        <input
+
+            type="text"
+
+            id="chat-input"
+
+            placeholder="Type your health question..."
+
+        >
+
+
+
+        <button id="send-btn">
+
+            Send
+
+        </button>
+
+
+
+    </div>
+
+
+
+</div>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="{{ url_for('static', filename='js/assistant.js') }}"></script>
+
+
+
+</body>
+
+
+</html>

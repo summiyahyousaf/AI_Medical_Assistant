@@ -1,0 +1,481 @@
+{
+  "Fungal infection": [
+    "Itching",
+    "Skin rash",
+    "Redness",
+    "Skin peeling",
+    "Burning sensation",
+    "Ring-shaped rash",
+    "Cracked skin",
+    "Discolored skin"
+  ],
+
+  "Allergy": [
+    "Sneezing",
+    "Runny nose",
+    "Itchy eyes",
+    "Watery eyes",
+    "Skin rash",
+    "Hives",
+    "Swelling",
+    "Difficulty breathing"
+  ],
+
+  "GERD": [
+    "Heartburn",
+    "Acid reflux",
+    "Chest pain",
+    "Difficulty swallowing",
+    "Sore throat",
+    "Regurgitation",
+    "Chronic cough",
+    "Hoarseness"
+  ],
+
+  "Chronic cholestasis": [
+    "Yellowing of skin",
+    "Yellowing of eyes",
+    "Dark urine",
+    "Pale stools",
+    "Severe itching",
+    "Fatigue",
+    "Abdominal pain",
+    "Loss of appetite"
+  ],
+
+  "Drug Reaction": [
+    "Skin rash",
+    "Itching",
+    "Redness",
+    "Swelling",
+    "Fever",
+    "Blisters",
+    "Difficulty breathing",
+    "Facial swelling"
+  ],
+
+  "Peptic ulcer diseae": [
+    "Burning stomach pain",
+    "Abdominal pain",
+    "Bloating",
+    "Nausea",
+    "Vomiting",
+    "Heartburn",
+    "Loss of appetite",
+    "Dark stools"
+  ],
+
+  "AIDS": [
+    "Persistent fever",
+    "Night sweats",
+    "Weight loss",
+    "Fatigue",
+    "Swollen lymph nodes",
+    "Chronic diarrhea",
+    "Frequent infections",
+    "Skin rashes"
+  ],
+
+  "Diabetes ": [
+    "Frequent urination",
+    "Excessive thirst",
+    "Increased hunger",
+    "Fatigue",
+    "Blurred vision",
+    "Slow wound healing",
+    "Unexplained weight loss",
+    "Frequent infections"
+  ],
+
+  "Gastroenteritis": [
+    "Diarrhea",
+    "Vomiting",
+    "Nausea",
+    "Abdominal cramps",
+    "Fever",
+    "Dehydration",
+    "Loss of appetite",
+    "Weakness"
+  ],
+
+  "Bronchial Asthma": [
+    "Shortness of breath",
+    "Wheezing",
+    "Chest tightness",
+    "Persistent cough",
+    "Difficulty breathing",
+    "Rapid breathing",
+    "Fatigue",
+    "Nighttime coughing"
+  ],
+
+  "Hypertension ": [
+    "Headache",
+    "Dizziness",
+    "Blurred vision",
+    "Chest pain",
+    "Shortness of breath",
+    "Nosebleeds",
+    "Fatigue",
+    "Irregular heartbeat"
+  ],
+
+  "Migraine": [
+    "Severe headache",
+    "Throbbing pain",
+    "Nausea",
+    "Vomiting",
+    "Sensitivity to light",
+    "Sensitivity to sound",
+    "Blurred vision",
+    "Aura"
+  ],
+
+    "Chicken pox": [
+    "Fever",
+    "Itchy skin rash",
+    "Fluid-filled blisters",
+    "Fatigue",
+    "Headache",
+    "Loss of appetite",
+    "Muscle aches",
+    "Scab formation"
+  ],
+
+  "Dengue": [
+    "High fever",
+    "Severe headache",
+    "Pain behind the eyes",
+    "Muscle pain",
+    "Joint pain",
+    "Skin rash",
+    "Nausea",
+    "Vomiting",
+    "Fatigue",
+    "Mild bleeding"
+  ],
+
+  "Common Cold": [
+    "Runny nose",
+    "Nasal congestion",
+    "Sneezing",
+    "Sore throat",
+    "Cough",
+    "Headache",
+    "Mild fever",
+    "Watery eyes",
+    "Fatigue"
+  ],
+
+  "Pneumonia": [
+    "Persistent cough",
+    "Chest pain",
+    "High fever",
+    "Chills",
+    "Shortness of breath",
+    "Rapid breathing",
+    "Fatigue",
+    "Loss of appetite",
+    "Confusion"
+  ],
+
+  "Jaundice": [
+    "Yellowing of skin",
+    "Yellowing of eyes",
+    "Dark urine",
+    "Pale stools",
+    "Fatigue",
+    "Abdominal pain",
+    "Nausea",
+    "Loss of appetite",
+    "Itching"
+  ],
+
+  "Malaria": [
+    "High fever",
+    "Chills",
+    "Sweating",
+    "Headache",
+    "Muscle pain",
+    "Fatigue",
+    "Nausea",
+    "Vomiting",
+    "Abdominal pain"
+  ],
+
+  "Typhoid": [
+    "Prolonged fever",
+    "Weakness",
+    "Abdominal pain",
+    "Headache",
+    "Constipation",
+    "Diarrhea",
+    "Loss of appetite",
+    "Fatigue",
+    "Skin rash"
+  ],
+
+  "Tuberculosis": [
+    "Persistent cough",
+    "Coughing up blood",
+    "Chest pain",
+    "Night sweats",
+    "Weight loss",
+    "Fatigue",
+    "Fever",
+    "Loss of appetite",
+    "Shortness of breath"
+  ],
+
+  "Hepatitis B": [
+    "Fatigue",
+    "Jaundice",
+    "Dark urine",
+    "Abdominal pain",
+    "Nausea",
+    "Vomiting",
+    "Joint pain",
+    "Loss of appetite",
+    "Fever"
+  ],
+
+  "Hepatitis C": [
+    "Fatigue",
+    "Jaundice",
+    "Dark urine",
+    "Abdominal pain",
+    "Nausea",
+    "Loss of appetite",
+    "Joint pain",
+    "Easy bruising",
+    "Swelling in legs"
+  ],
+    "Hepatitis D": [
+    "Fatigue",
+    "Jaundice",
+    "Dark urine",
+    "Abdominal pain",
+    "Loss of appetite",
+    "Nausea",
+    "Vomiting",
+    "Joint pain",
+    "Swelling of abdomen"
+  ],
+
+  "Hepatitis E": [
+    "Fatigue",
+    "Jaundice",
+    "Fever",
+    "Dark urine",
+    "Abdominal pain",
+    "Loss of appetite",
+    "Nausea",
+    "Vomiting",
+    "Joint pain"
+  ],
+
+  "hepatitis A": [
+    "Fever",
+    "Fatigue",
+    "Jaundice",
+    "Dark urine",
+    "Abdominal pain",
+    "Nausea",
+    "Vomiting",
+    "Loss of appetite",
+    "Pale stools"
+  ],
+
+  "Alcoholic hepatitis": [
+    "Jaundice",
+    "Abdominal pain",
+    "Loss of appetite",
+    "Nausea",
+    "Vomiting",
+    "Fatigue",
+    "Weight loss",
+    "Fever",
+    "Swollen abdomen"
+  ],
+
+  "Hypoglycemia": [
+    "Sweating",
+    "Shaking",
+    "Dizziness",
+    "Confusion",
+    "Blurred vision",
+    "Rapid heartbeat",
+    "Hunger",
+    "Weakness",
+    "Loss of consciousness"
+  ],
+
+  "Hyperthyroidism": [
+    "Weight loss",
+    "Rapid heartbeat",
+    "Excessive sweating",
+    "Nervousness",
+    "Anxiety",
+    "Hand tremors",
+    "Increased appetite",
+    "Heat intolerance",
+    "Difficulty sleeping"
+  ],
+
+  "Hypothyroidism": [
+    "Fatigue",
+    "Weight gain",
+    "Dry skin",
+    "Hair loss",
+    "Constipation",
+    "Cold intolerance",
+    "Depression",
+    "Slow heartbeat",
+    "Puffy face"
+  ],
+
+  "Osteoarthristis": [
+    "Joint pain",
+    "Joint stiffness",
+    "Swelling",
+    "Reduced flexibility",
+    "Cracking joints",
+    "Tenderness",
+    "Difficulty walking",
+    "Pain after activity",
+    "Limited movement"
+  ],
+
+  "Arthritis": [
+    "Joint pain",
+    "Joint swelling",
+    "Joint stiffness",
+    "Redness around joints",
+    "Warm joints",
+    "Difficulty moving joints",
+    "Fatigue",
+    "Weakness",
+    "Reduced range of motion"
+  ],
+
+  "Cervical spondylosis": [
+    "Neck pain",
+    "Neck stiffness",
+    "Shoulder pain",
+    "Headache",
+    "Numbness in arms",
+    "Tingling in hands",
+    "Muscle weakness",
+    "Dizziness",
+    "Reduced neck movement"
+  ],
+
+    "Paralysis (brain hemorrhage)": [
+    "Sudden weakness",
+    "Paralysis on one side",
+    "Difficulty speaking",
+    "Loss of balance",
+    "Severe headache",
+    "Vision problems",
+    "Confusion",
+    "Difficulty walking",
+    "Loss of consciousness"
+  ],
+
+  "Heart attack": [
+    "Chest pain",
+    "Chest pressure",
+    "Shortness of breath",
+    "Pain in left arm",
+    "Jaw pain",
+    "Neck pain",
+    "Cold sweating",
+    "Nausea",
+    "Dizziness"
+  ],
+
+  "Varicose veins": [
+    "Visible enlarged veins",
+    "Leg pain",
+    "Leg heaviness",
+    "Swollen legs",
+    "Muscle cramps",
+    "Itching around veins",
+    "Burning sensation",
+    "Skin discoloration",
+    "Ankle swelling"
+  ],
+
+  "Urinary tract infection": [
+    "Burning urination",
+    "Frequent urination",
+    "Urgent need to urinate",
+    "Cloudy urine",
+    "Blood in urine",
+    "Lower abdominal pain",
+    "Pelvic pain",
+    "Fever",
+    "Foul-smelling urine"
+  ],
+
+  "(vertigo) Paroymsal  Positional Vertigo": [
+    "Dizziness",
+    "Spinning sensation",
+    "Loss of balance",
+    "Nausea",
+    "Vomiting",
+    "Unsteady walking",
+    "Head movement triggers dizziness",
+    "Blurred vision",
+    "Lightheadedness"
+  ],
+
+  "Acne": [
+    "Pimples",
+    "Blackheads",
+    "Whiteheads",
+    "Red bumps",
+    "Painful cysts",
+    "Oily skin",
+    "Skin inflammation",
+    "Facial redness",
+    "Acne scars"
+  ],
+
+  "Psoriasis": [
+    "Red patches",
+    "Silvery scales",
+    "Dry skin",
+    "Cracked skin",
+    "Itching",
+    "Burning sensation",
+    "Skin pain",
+    "Joint pain",
+    "Nail changes"
+  ],
+
+  "Dimorphic hemmorhoids(piles)": [
+    "Rectal bleeding",
+    "Pain during bowel movement",
+    "Anal itching",
+    "Swelling around anus",
+    "Pain while sitting",
+    "Lump near anus",
+    "Mucus discharge",
+    "Discomfort",
+    "Constipation"
+  ],
+
+  "Impetigo": [
+    "Red sores",
+    "Blisters",
+    "Honey-colored crusts",
+    "Itching",
+    "Skin redness",
+    "Swollen lymph nodes",
+    "Mild pain",
+    "Fluid-filled lesions",
+    "Skin irritation"
+  ]
+}
+
