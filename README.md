@@ -93,7 +93,7 @@ Interactive Web Application
 ##  Dashboard
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.png?raw=true" width="400">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.png?raw=true" width="500">
 </p>
 
 ---
@@ -101,7 +101,7 @@ Interactive Web Application
 ##  Disease Prediction
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/predict_disease.png?raw=true" width="400">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/predict_disease.png?raw=true" width="500">
 </p>
 
 ---
@@ -109,7 +109,7 @@ Interactive Web Application
 ##  Medical Report
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.png?raw=true" width="400">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.png?raw=true" width="500">
 </p>
 
 ---
