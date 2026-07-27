@@ -1,5 +1,7 @@
 # 🩺 AI Medical Assistant
-## Intelligent Healthcare Prediction & Conversational AI Platform
+<h3 align="center">
+Intelligent Healthcare Prediction & Conversational AI Platform
+</h3>
 
 <p align="center">
 
@@ -15,30 +17,49 @@
 
 </p>
 
+#  Project Objectives
 
-<p align="center">
+The main objectives of this project are:
 
-An AI-powered healthcare assistant that combines Machine Learning, Web Development, and Conversational AI to provide intelligent disease prediction and health support.
+- Build an intelligent symptom-based disease prediction system
+- Compare multiple machine learning algorithms
+- Select the best-performing model
+- Deploy the model through a Flask web application
+- Create a professional healthcare dashboard
+- Provide users with an interactive AI assistant experience
 
-</p>
 
+# 🎥 Project Demo
 
----
+> Demo video will be added soon.
+
 
 # Project Overview
 
 AI Medical Assistant is an end-to-end healthcare AI application designed to assist users in understanding their symptoms through machine learning-based disease prediction.
-
 The system analyzes user-provided symptoms, converts them into machine-readable features, and uses trained classification models to predict possible diseases.
 
-Along with prediction capabilities, the application provides:
+Along with prediction capabilities, the application provides a complete healthcare workflow:
 
--  AI disease prediction
--  Interactive medical chatbot
--  Automated medical reports
--  Health analytics dashboard
--  User profile management
--  Application settings
+User Registration
+↓
+Secure Login
+↓
+Symptom Input
+↓
+Machine Learning Prediction
+↓
+Confidence Score Generation
+↓
+Medical Report Creation
+↓
+PDF Download
+↓
+Previous Reports History
+↓
+Health Analytics
+↓
+AI Medical Assistan
 
 
 The project demonstrates the complete AI development lifecycle:
@@ -58,119 +79,91 @@ Model Deployment
 Interactive Web Application
 
 
-The AI Medical Assistant is a Flask-based web application that predicts diseases from user-selected symptoms using a machine learning model. Users can create an account, log in securely, enter their symptoms, and receive an AI-generated disease prediction along with a confidence score. Every prediction is stored in a SQLite database, allowing users to review previous reports and download them as PDF documents. The application also includes health analytics and an AI assistant that answers common medical questions. The machine learning model was trained using a disease–symptom dataset, and Joblib is used to efficiently load the trained model and LabelEncoder during deployment.
+
+# 📸 Application Screenshots
 
 
+##  User Authentication
+
+<img src="static/images/screenshots/login.png" width="800">
 
 
-#  Project Objectives
+##  Dashboard
 
-The main objectives of this project are:
+<img src="static/images/screenshots/dashboard.png" width="800">
 
-- Build an intelligent symptom-based disease prediction system
-- Compare multiple machine learning algorithms
-- Select the best-performing model
-- Deploy the model through a Flask web application
-- Create a professional healthcare dashboard
-- Provide users with an interactive AI assistant experience
 
+##  Disease Prediction
+
+<img src="static/images/screenshots/prediction.png" width="800">
+
+
+##  AI Medical Report
+
+<img src="static/images/screenshots/report.png" width="800">
+
+
+##  Analytics Dashboard
+
+<img src="static/images/screenshots/analytics.png" width="800">
+
+
+##  AI Medical Assistant
+
+<img src="static/images/screenshots/assistant.png" width="800">
 
 
 #  System Architecture
 
-                              USER
-                                |
-                                |
-                                ↓
-                    ┌──────────────────────┐
-                    │   Web Interface      │
-                    │ HTML / CSS / JS      │
-                    └──────────────────────┘
-                                |
-                                |
-                                ↓
-                    ┌──────────────────────┐
-                    │   Flask Application  │
-                    │      Backend         │
-                    └──────────────────────┘
-                                |
-              ┌─────────────────┼─────────────────┐
-              |                 |                 |
-              ↓                 ↓                 ↓
- ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
- │ Disease          │  │ AI Medical       │  │ User Management  │
- │ Prediction       │  │ Assistant        │  │ & Reports        │
- │ Module           │  │ Module           │  │ Module           │
- └──────────────────┘  └──────────────────┘  └──────────────────┘
-              |                 |                 |
-              ↓                 ↓                 ↓
- ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
- │ Symptom Input    │  │ Chat Interface   │  │ SQLite Database  │
- │ Processing       │  │ & Responses      │  │                  │
- └──────────────────┘  └──────────────────┘  └──────────────────┘
-              |
-              |
-              ↓
-        ┌─────────────────────────────┐
-        │ Machine Learning Pipeline   │
-        └─────────────────────────────┘
-                         |
-                         ↓
-        ┌─────────────────────────────┐
-        │ Data Preprocessing          │
-        │                             │
-        │ - Cleaning                  │
-        │ - Feature Encoding          │
-        │ - Label Encoding            │
-        └─────────────────────────────┘
-                         |
-                         ↓
-        ┌─────────────────────────────┐
-        │ Trained ML Models           │
-        │                             │
-        │ - Decision Tree             │
-        │ - Random Forest             │
-        │ - Naive Bayes               │
-        │ - SVM                       │
-        └─────────────────────────────┘
-                         |
-                         ↓
-        ┌─────────────────────────────┐
-        │ Model Evaluation            │
-        │                             │
-        │ - Accuracy                  │
-        │ - Precision                 │
-        │ - Recall                    │
-        │ - F1 Score                  │
-        │ - Confusion Matrix          │
-        └─────────────────────────────┘
-
-                         |
-                         ↓
-        ┌─────────────────────────────┐
-        │ Final Selected Model        │
-        │                             │
-        │ Random Forest Classifier    │
-        │ best_model.pkl              │
-        └─────────────────────────────┘
-                         |
-                         ↓
-        ┌─────────────────────────────┐
-        │ Prediction Engine           │
-        │                             │
-        │ Symptoms → Vector → Disease │
-        │ + Confidence Score          │
-        └─────────────────────────────┘
-                         |
-                         ↓
-        ┌─────────────────────────────┐
-        │ Medical Report Generation   │
-        │                             │
-        │ - Patient Information       │
-        │ - Predicted Disease         │
-        │ - Confidence Level          │
-        │ - Selected Symptoms         │
-        └─────────────────────────────┘
+                                        USER
+                                         │
+                                         ▼
+                          ┌──────────────────────────┐
+                          │      Web Interface       │
+                          │   HTML • CSS • JS        │
+                          └──────────────────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────┐
+                          │      Flask Backend       │
+                          │        (app.py)         │
+                          └──────────────────────────┘
+                                         │
+              ┌──────────────────────────┼──────────────────────────┐
+              │                          │                          │
+              ▼                          ▼                          ▼
+ ┌────────────────────┐      ┌────────────────────┐      ┌────────────────────┐
+ │ User Authentication│      │ Disease Prediction │      │ AI Medical Assistant│
+ │ Login / Signup     │      │ Prediction Module  │      │ Chat Module         │
+ └────────────────────┘      └────────────────────┘      └────────────────────┘
+              │                          │
+              ▼                          ▼
+ ┌────────────────────┐      ┌──────────────────────────────┐
+ │ SQLite Database    │      │ Machine Learning Pipeline    │
+ │ Users              │      │                              │
+ │ Reports            │      │ Data Preprocessing           │
+ │ Profiles           │      │ Label Encoding               │
+ └────────────────────┘      │ Feature Engineering          │
+                             │                              │
+                             │ Random Forest Classifier     │
+                             │ Label Encoder (Joblib)       │
+                             └──────────────────────────────┘
+                                         │
+                                         ▼
+                          ┌──────────────────────────┐
+                          │ Disease Prediction Engine│
+                          │ + Confidence Score       │
+                          └──────────────────────────┘
+                                         │
+             ┌───────────────────────────┼────────────────────────────┐
+             │                           │                            │
+             ▼                           ▼                            ▼
+ ┌────────────────────┐      ┌────────────────────┐      ┌────────────────────┐
+ │ Medical Report     │      │ Previous Reports   │      │ Analytics Dashboard│
+ │ PDF Generation     │      │ SQLite History     │      │ Charts & Statistics│
+ └────────────────────┘      └────────────────────┘      └────────────────────┘   
+  
+        │    
 
 
 
@@ -285,25 +278,6 @@ A professional dashboard that provides users with centralized access to all heal
 
 
 #  Disease Prediction Module
-
-
-Workflow:
-          
-          User Symptoms
-              ↓
-          Symptom Processing
-              ↓
-          Feature Vector Generation
-              ↓
-          Random Forest Classification Model
-              ↓
-          Disease Prediction
-              ↓
-          Confidence Score
-              ↓
-          Medical Report
-              ↓
-          Savce Medical Report / Download as PDF
 
 
 Generated report contains:
@@ -446,7 +420,7 @@ Open browser:
 
     http://127.0.0.1:5000
 
-
+```
  Model Evaluation
 
 The system generates:
