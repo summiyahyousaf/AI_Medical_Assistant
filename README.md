@@ -83,7 +83,7 @@ Interactive Web Application
 # 📸 Application Screenshots
 
 
-##  Dashboard & Prediction
+##  Dashboard 
 
 <p align="center">
   <img src="docs/screenshots/dashboard.png" width="47%">
@@ -91,11 +91,11 @@ Interactive Web Application
 
 ---
 
-##  Medical Report & Analytics
+##  Disease Prediction
 
 <p align="center">
-  <img src="docs/screenshots/medical_report.png" width="47%">
-  <img src="docs/screenshots/analytics.png" width="47%">
+  <img src="docs/screenshots/predict1.png" width="47%">
+  <img src="docs/screenshots/predict2.png" width="47%">
 </p>
 
 ---
