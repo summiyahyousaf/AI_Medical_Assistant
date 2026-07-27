@@ -27,12 +27,6 @@ The main objectives of this project are:
 -Develop a complete AI-powered healthcare application using Flask.
 -Generate AI-assisted medical reports with confidence scores.
 
-
-# 🎥 Project Demo
-
-https://www.youtube.com/watch?v=wUH74Kr6yi4
-
-
 # Project Overview
 
 AI Medical Assistant is an end-to-end healthcare AI application designed to assist users in understanding their symptoms through machine learning-based disease prediction.
@@ -40,7 +34,26 @@ The system analyzes user-provided symptoms, converts them into machine-readable 
 
 Along with prediction capabilities, the application provides a complete healthcare workflow:
 
-#  workflow
+#  Application Workflow
+
+<p align="center">
+  <img src="docs/diagrams/workflow.png" width="900">
+</p>
+
+---
+
+#  System Architecture
+
+<p align="center">
+  <img src="docs/diagrams/architecture.png" width="900">
+</p>
+
+---
+
+
+# 🎥 Project Demo
+
+https://www.youtube.com/watch?v=wUH74Kr6yi4
 
 
 
@@ -92,59 +105,7 @@ Along with prediction capabilities, the application provides a complete healthca
 </p>
 
 
-```text
-
-                                        USER
-                                         │
-                                         ▼
-                          ┌──────────────────────────┐
-                          │      Web Interface       │
-                          │   HTML • CSS • JS        │
-                          └──────────────────────────┘
-                                         │
-                                         ▼
-                          ┌──────────────────────────┐
-                          │      Flask Backend       │
-                          │        (app.py)         │
-                          └──────────────────────────┘
-                                         │
-              ┌──────────────────────────┼──────────────────────────┐
-              │                          │                          │
-              ▼                          ▼                          ▼
- ┌────────────────────┐      ┌────────────────────┐      ┌────────────────────┐
- │ User Authentication│      │ Disease Prediction │      │ AI Medical Assistant│
- │ Login / Signup     │      │ Prediction Module  │      │ Chat Module         │
- └────────────────────┘      └────────────────────┘      └────────────────────┘
-              │                          │
-              ▼                          ▼
- ┌────────────────────┐      ┌──────────────────────────────┐
- │ SQLite Database    │      │ Machine Learning Pipeline    │
- │ Users              │      │                              │
- │ Reports            │      │ Data Preprocessing           │
- │ Profiles           │      │ Label Encoding               │
- └────────────────────┘      │ Feature Engineering          │
-                             │                              │
-                             │ Random Forest Classifier     │
-                             │ Label Encoder (Joblib)       │
-                             └──────────────────────────────┘
-                                         │
-                                         ▼
-                          ┌──────────────────────────┐
-                          │ Disease Prediction Engine│
-                          │ + Confidence Score       │
-                          └──────────────────────────┘
-                                         │
-             ┌───────────────────────────┼────────────────────────────┐
-             │                           │                            │
-             ▼                           ▼                            ▼
- ┌────────────────────┐      ┌────────────────────┐      ┌────────────────────┐
- │ Medical Report     │      │ Previous Reports   │      │ Analytics Dashboard│
- │ PDF Generation     │      │ SQLite History     │      │ Charts & Statistics│
- └────────────────────┘      └────────────────────┘      └────────────────────┘   
-  
         │    
-```
-
 
 # Data Processing
 
@@ -452,7 +413,7 @@ Always consult qualified healthcare professionals for medical decisions.
 Markdown
 
 # #Developer
-Summiya Yousaf
+## Summiya Yousaf
 
 Bachelor of Science in Artificial Intelligence
 Air University Islamabad
