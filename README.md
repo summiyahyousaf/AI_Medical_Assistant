@@ -100,6 +100,15 @@ Interactive Web Application
 
 ---
 
+##  Medical Report
+
+<p align="center">
+  <img src="docs/screenshots/report1.png" width="47%">
+  <img src="docs/screenshots/report2.png" width="47%">
+</p>
+
+---
+
 ##  AI Assistant & Previous Reports
 
 <p align="center">
