@@ -86,7 +86,7 @@ Interactive Web Application
 ##  Dashboard 
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" width="70%">
+  <img src="docs/screenshots/dashboard.png" width="80%">
 </p>
 
 ---
@@ -109,11 +109,11 @@ Interactive Web Application
 
 ---
 
-##  AI Assistant & Previous Reports
+##  Health Analytics & Previous Reports
 
 <p align="center">
-  <img src="docs/screenshots/AI_Assistant.png" width="47%">
-  <img src="docs/screenshots/previous_reports.png" width="47%">
+  <img src="docs/screenshots/previousreports.png" width="47%">
+  <img src="docs/screenshots/analytics.png" width="47%">
 </p>
 
 ---
