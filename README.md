@@ -37,7 +37,7 @@ Along with prediction capabilities, the application provides a complete healthca
 #  Application Workflow
 
 <p align="center">
-  <img src="docs/screenshots/workflow.png" width="900">
+  <img src="docs/screenshots/workflow.png" width="500">
 </p>
 
 ---
@@ -45,7 +45,7 @@ Along with prediction capabilities, the application provides a complete healthca
 #  System Architecture
 
 <p align="center">
-  <img src="docs/screenshots/architecture.png" width="900">
+  <img src="docs/screenshots/architecture.png" width="500">
 </p>
 
 ---
