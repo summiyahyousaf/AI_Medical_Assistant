@@ -86,7 +86,7 @@ Interactive Web Application
 ##  Dashboard 
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" width="80%">
+  <img src="docs/screenshots/dashboard.png" width="90%">
 </p>
 
 ---
@@ -118,11 +118,13 @@ Interactive Web Application
 
 ---
 
-##  Settings
+##  Settings & AI Assistant
 
 <p align="center">
-  <img src="docs/screenshots/settings.png" width="60%">
+  <img src="docs/screenshots/settings.png" width="47%">
+  <img src="docs/screenshots/assistant.png" width="47%">
 </p>
+
 
 ```text
 
