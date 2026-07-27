@@ -85,32 +85,32 @@ Interactive Web Application
 
 ##  User Authentication
 
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/login.png" width="70%">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/login.pngraw=true" width="350">
 
 
 ##  Dashboard
 
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.png" width="70%">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.pngraw=true" width="350">
 
 
 ##  Disease Prediction
 
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/predict_disease.png" width="70%">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/predict_disease.pngraw=true" width="350">
 
 
 ##  Medical Report
 
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.png" width="70%">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.pngraw=true" width="350">
 
 
 ##  Analytics Dashboard
 
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/analytics.png" width="70%">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/analytics.pngraw=true" width="350">
 
 
 ##  AI Medical Assistant
 
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/AI_Assistant.png" width="70%">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/AI_Assistant.pngraw=true" width="350">
 
 
 #  System Architecture
