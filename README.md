@@ -86,7 +86,7 @@ Interactive Web Application
 
 <p align="center">
   <img src="docs/screenshots/login.png" width="47%">
-  <img src="docs/screenshots/signup.png" width="47%">
+  <img src="docs/screenshots/logout.png" width="47%">
 </p>
 
 ---
