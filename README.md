@@ -131,6 +131,8 @@ Interactive Web Application
 
 #  System Architecture
 
+```text
+
                                         USER
                                          │
                                          ▼
@@ -180,7 +182,7 @@ Interactive Web Application
  └────────────────────┘      └────────────────────┘      └────────────────────┘   
   
         │    
-
+```
 
 
 # Data Processing
