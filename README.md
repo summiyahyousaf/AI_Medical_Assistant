@@ -82,10 +82,10 @@ Interactive Web Application
 
 # 📸 Application Screenshots
 
-## 🔐 User Authentication
+##  User Authentication
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/login.png?raw=true" width="350">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/login.png?raw=true" width="400">
 </p>
 
 ---
@@ -93,7 +93,7 @@ Interactive Web Application
 ##  Dashboard
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.png?raw=true" width="350">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/dashboard.png?raw=true" width="400">
 </p>
 
 ---
@@ -101,7 +101,7 @@ Interactive Web Application
 ##  Disease Prediction
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/predict_disease.png?raw=true" width="350">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/predict_disease.png?raw=true" width="400">
 </p>
 
 ---
@@ -109,7 +109,7 @@ Interactive Web Application
 ##  Medical Report
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.png?raw=true" width="350">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/medical_report.png?raw=true" width="400">
 </p>
 
 ---
@@ -117,7 +117,7 @@ Interactive Web Application
 ##  Analytics Dashboard
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/analytics.png?raw=true" width="350">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/analytics.png?raw=true" width="400">
 </p>
 
 ---
@@ -125,7 +125,7 @@ Interactive Web Application
 ##  AI Medical Assistant
 
 <p align="center">
-<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/AI_Assistant.png?raw=true" width="350">
+<img src="https://github.com/summiyahyousaf/AI_Medical_Assistant/blob/main/AI_Assistant.png?raw=true" width="400">
 </p>
 
 
