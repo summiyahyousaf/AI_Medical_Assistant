@@ -21,12 +21,11 @@ Intelligent Healthcare Prediction & Conversational AI Platform
 
 The main objectives of this project are:
 
-- Build an intelligent symptom-based disease prediction system
-- Compare multiple machine learning algorithms
-- Select the best-performing model
-- Deploy the model through a Flask web application
-- Create a professional healthcare dashboard
-- Provide users with an interactive AI assistant experience
+-Build an intelligent symptom-based disease prediction system.
+-Compare multiple Machine Learning algorithms.
+-Select and deploy the best-performing model.
+-Develop a complete AI-powered healthcare application using Flask.
+-Generate AI-assisted medical reports with confidence scores.
 
 
 # 🎥 Project Demo
@@ -41,42 +40,9 @@ The system analyzes user-provided symptoms, converts them into machine-readable 
 
 Along with prediction capabilities, the application provides a complete healthcare workflow:
 
-User Registration
-↓
-Secure Login
-↓
-Symptom Input
-↓
-Machine Learning Prediction
-↓
-Confidence Score Generation
-↓
-Medical Report Creation
-↓
-PDF Download
-↓
-Previous Reports History
-↓
-Health Analytics
-↓
-AI Medical Assistan
+#  workflow
 
 
-The project demonstrates the complete AI development lifecycle:
-
-Data Collection
-↓
-Exploratory Data Analysis
-↓
-Data Preprocessing
-↓
-Machine Learning Training
-↓
-Model Evaluation
-↓
-Model Deployment
-↓
-Interactive Web Application
 
 
 
