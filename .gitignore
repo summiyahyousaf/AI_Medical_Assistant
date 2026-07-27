@@ -14,8 +14,8 @@ __pycache__/
 # Generated files
 *.pdf
 
-# Model cache
-*.pkl
-
 # VS Code
 .vscode/
+
+# Generated reports
+reports/
