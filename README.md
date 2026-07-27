@@ -86,7 +86,7 @@ Interactive Web Application
 ##  Dashboard 
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" width="47%">
+  <img src="docs/screenshots/dashboard.png" width="70%">
 </p>
 
 ---
