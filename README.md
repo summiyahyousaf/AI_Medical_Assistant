@@ -19,6 +19,29 @@ Intelligent Healthcare Prediction & Conversational AI Platform
 AI Medical Assistant is a Machine Learning powered healthcare web application that predicts diseases based on user-selected symptoms.
 The application combines Flask, Scikit-learn, SQLite, HTML, CSS and JavaScript to deliver disease prediction, AI-powered health assistance, downloadable medical reports and healthcare analytics through an intuitive web interface.
 
+
+##  Table of Contents
+
+- [Project Objectives](#-project-objectives)
+- [Project Overview](#project-overview)
+- [Features](#-features)
+- [Project Demo](#-project-demo)
+- [Application Workflow](#-application-workflow)
+- [System Architecture](#-system-architecture)
+- [Application Screenshots](#-application-screenshots)
+- [Dataset](#-dataset)
+- [Machine Learning Pipeline](#machine-learning-pipeline)
+- [Machine Learning Models](#machine-learning-models)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Model Evaluation](#model-evaluation)
+- [Results](#results)
+- [Future Improvements](#future-improvements)
+- [Medical Disclaimer](#-medical-disclaimer)
+- [Developer](#-developer)
+
+
 #  Project Objectives
 
 The main objectives of this project are:
@@ -225,9 +248,6 @@ models/
 ```
 
 
-#  Application Features
-
-
 ##  Healthcare Dashboard
 
 
@@ -277,41 +297,14 @@ Features:
 
 #  Technology Stack
 
-
-## Programming Language
-
-Python
-
-
-## Machine Learning
-
-- Scikit-learn
-- Pandas
-- NumPy
-- Joblib
-
-
-## Backend
-
-- Flask
-
-
-## Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-
-
-## Database
-
-- SQLite
-
-
-## Data Visualization
-
-- Matplotlib
-- Seaborn
+| Category      | Technologies          |
+| ------------- | --------------------- |
+| Language      | Python                |
+| Backend       | Flask                 |
+| ML            | Scikit-learn          |
+| Database      | SQLite                |
+| Frontend      | HTML, CSS, JavaScript |
+| Visualization | Matplotlib, Seaborn   |
 
 
 ---
@@ -351,42 +344,50 @@ AI_Medical_Assistant/
 └── README.md
 
 ```
+## 🚀 Installation
 
-# Installation
-
-Clone repository:
-
+Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Medical-Assistant.git
+git clone https://github.com/summiyahyousaf/AI_Medical_Assistant.git
+```
 
+Navigate into the project
 
-Navigate:
-cd AI-Medical-Assistant
+```bash
+cd AI_Medical_Assistant
+```
 
+Create virtual environment
 
-Create virtual environment:
+```bash
 python -m venv venv
+```
 
+Activate virtual environment
 
-Activate environment:
-Windows:
+Windows
+
+```bash
 venv\Scripts\activate
+```
 
+Install dependencies
 
-Install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
+Run the application
 
-Running Application
-Start Flask server:
+```bash
+python app.py
+```
 
-     python app.py
+Open:
 
-Open browser:
-
-    http://127.0.0.1:5000
-
+```
+http://127.0.0.1:5000
 ```
  Model Evaluation
 
@@ -443,7 +444,7 @@ Always consult qualified healthcare professionals for medical decisions.
 
 
 
-## 👩‍💻 Developer
+##  Developer
 
 **Summiya Yousaf**
 
@@ -459,8 +460,14 @@ Air University Islamabad
 - NLP
 - Computer Vision
 
-GitHub:
-github.com/summiyahyousaf
+### 🔗 Connect with me
+
+- GitHub: https://github.com/summiyahyousaf
+- LinkedIn: https://www.linkedin.com/in/summiya-yousaf-24411534a/
+
+  ##  License
+
+This project is licensed under the MIT License.
 
 
 ⭐ If you found this project interesting, consider giving it a star!
