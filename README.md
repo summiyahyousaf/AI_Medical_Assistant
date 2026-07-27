@@ -330,10 +330,10 @@ Features:
 
 AI_Medical_Assistant/
 │
-├── app.py                      # Main Flask application
-├── database.py                 # SQLite database configuration
-├── requirements.txt            # Project dependencies
-├── README.md                   # Project documentation
+├── app.py                      
+├── database.py                 
+├── requirements.txt           
+├── README.md                   
 ├── .gitignore
 │
 ├── dataset/
@@ -373,7 +373,7 @@ AI_Medical_Assistant/
 │   ├── naive_bayes_model.pkl
 │   └── svm_model.pkl
 │
-├── reports/                    # Generated medical reports
+├── reports/                   
 │
 ├── src/
 │   ├── __init__.py
