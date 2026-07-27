@@ -20,29 +20,33 @@ AI Medical Assistant is a Machine Learning powered healthcare web application th
 The application combines Flask, Scikit-learn, SQLite, HTML, CSS and JavaScript to deliver disease prediction, AI-powered health assistance, downloadable medical reports and healthcare analytics through an intuitive web interface.
 
 
-##  Table of Contents
+## Table of Contents
 
-- [Project Objectives](#-project-objectives)
+- [Project Objectives](#project-objectives)
 - [Project Overview](#project-overview)
-- [Features](#-features)
-- [Project Demo](#-project-demo)
-- [Application Workflow](#-application-workflow)
-- [System Architecture](#-system-architecture)
-- [Application Screenshots](#-application-screenshots)
-- [Dataset](#-dataset)
+- [Features](#features)
+- [Project Demo](#project-demo)
+- [Application Workflow](#application-workflow)
+- [System Architecture](#system-architecture)
+- [Application Screenshots](#application-screenshots)
+- [Dataset](#dataset)
 - [Machine Learning Pipeline](#machine-learning-pipeline)
 - [Machine Learning Models](#machine-learning-models)
-- [Technology Stack](#-technology-stack)
+- [Final Model Selection](#final-model-selection)
+- [Healthcare Dashboard](#healthcare-dashboard)
+- [AI Medical Assistant](#ai-medical-assistant)
+- [Technology Stack](#technology-stack)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Model Evaluation](#model-evaluation)
 - [Results](#results)
 - [Future Improvements](#future-improvements)
-- [Medical Disclaimer](#-medical-disclaimer)
-- [Developer](#-developer)
+- [Why This Project?](#why-this-project)
+- [Medical Disclaimer](#medical-disclaimer)
+- [Developer](#developer)
+- [License](#license)
 
-
-#  Project Objectives
+# Project Objectives
 
 The main objectives of this project are:
 
@@ -453,7 +457,7 @@ Accuracy comparison graph
 Confusion matrices
 Classification reports
 
-Evaluation metrics:
+## Evaluation metrics:
 Accuracy
 
 Precision
@@ -462,7 +466,7 @@ Recall
 
 F1 Score
 
-## 📈 Results
+##  Results
 
 - Achieved approximately **99% prediction accuracy** using the Random Forest classifier.
 - Successfully deployed the trained model using Flask.
