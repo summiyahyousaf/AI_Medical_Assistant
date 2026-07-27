@@ -37,7 +37,7 @@ Along with prediction capabilities, the application provides a complete healthca
 #  Application Workflow
 
 <p align="center">
-  <img src="docs/diagrams/workflow.png" width="900">
+  <img src="docs/screenshots/workflow.png" width="900">
 </p>
 
 ---
@@ -45,7 +45,7 @@ Along with prediction capabilities, the application provides a complete healthca
 #  System Architecture
 
 <p align="center">
-  <img src="docs/diagrams/architecture.png" width="900">
+  <img src="docs/screenshots/architecture.png" width="900">
 </p>
 
 ---
@@ -292,6 +292,7 @@ Python
 
 # Project Structure
 
+```bash
 AI_Medical_Assistant/
 │
 ├── app.py
@@ -323,7 +324,7 @@ AI_Medical_Assistant/
 ├── requirements.txt
 └── README.md
 
-
+```
 
 # Installation
 
