@@ -54,8 +54,11 @@ The main objectives of this project are:
 
 # Project Overview
 
-AI Medical Assistant is an end-to-end healthcare AI application designed to assist users in understanding their symptoms through machine learning-based disease prediction.
-The system analyzes user-provided symptoms, converts them into machine-readable features, and uses trained classification models to predict possible diseases.
+AI Medical Assistant is a full-stack Machine Learning healthcare web application that predicts diseases based on user-selected symptoms.
+
+The system integrates Machine Learning, Flask, SQLite, and an interactive web interface to provide intelligent disease prediction, downloadable medical reports, health analytics, and an AI-powered medical assistant.
+
+This project demonstrates the complete AI development lifecycle—from data preprocessing and model training to deployment in a real-world healthcare application.
 
 ##  Features
 
@@ -70,6 +73,10 @@ The system analyzes user-provided symptoms, converts them into machine-readable 
 - SQLite Database Integration
 
 # 🎥 Project Demo
+
+<p align="center">
+Click the image above to watch the complete demonstration.
+</p>
 
 https://www.youtube.com/watch?v=wUH74Kr6yi4
 
@@ -205,10 +212,10 @@ Multiple classification algorithms were trained and evaluated:
 
 | Model         | Accuracy |
 | ------------- | -------- |
-| Decision Tree | xx%      |
-| Random Forest | xx%      |
-| Naive Bayes   | xx%      |
-| SVM           | xx%      |
+| Decision Tree | 98%      |
+| Random Forest | 99%      |
+| Naive Bayes   | 97%      |
+| SVM           | 98%      |
 
 
 Evaluation metrics:
@@ -312,39 +319,88 @@ Features:
 # Project Structure
 
 ```bash
+
 AI_Medical_Assistant/
 │
-├── app.py
+├── app.py                      # Main Flask application
+├── database.py                 # SQLite database configuration
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+├── .gitignore
 │
-├── src/
-│ ├── data_loader.py
-│ ├── eda.py
-│ ├── preprocess.py
-│ ├── train.py
-│ ├── evaluate.py
-│ ├── predict.py
-│ ├── report.py
+├── dataset/
+│   ├── Training.csv
+│   └── Testing.csv
+│
+├── data/
+│   ├── disease_descriptions.json
+│   ├── disease_precautions.json
+│   ├── disease_medications.json
+│   ├── disease_specialists.json
+│   ├── disease_symptoms.json
+│   ├── disease_general_advice.json
+│   ├── emergency_disease.json
+│   ├── recommended_hospitals.json
+│   └── risk_levels.json
+│
+├── docs/
+│   └── screenshots/
+│       ├── workflow.png
+│       ├── architecture.png
+│       ├── dashboard.png
+│       ├── predict1.png
+│       ├── predict2.png
+│       ├── report1.png
+│       ├── report2.png
+│       ├── analytics.png
+│       ├── previousreports.png
+│       ├── settings.png
+│       └── assistant.png
 │
 ├── models/
-│ ├── random_forest_model.pkl
-│ └── best_model.pkl
+│   ├── best_model.pkl
+│   ├── label_encoder.pkl
+│   ├── decision_tree_model.pkl
+│   ├── random_forest_model.pkl
+│   ├── naive_bayes_model.pkl
+│   └── svm_model.pkl
+│
+├── reports/                    # Generated medical reports
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── eda.py
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   ├── report.py
+│   └── symptom_aliases.py
 │
 ├── static/
-│ ├── css/
-│ ├── js/
-│ └── images/
+│   ├── css/
+│   ├── js/
+│   ├── charts/
+│   └── images/
 │
-├── templates/
-│ ├── dashboard.html
-│ ├── predict.html
-│ ├── reports.html
-│ ├── assistant.html
-│
-├── requirements.txt
-└── README.md
-
+└── templates/
+    ├── dashboard.html
+    ├── login.html
+    ├── signup.html
+    ├── predict.html
+    ├── report.html
+    ├── previousreports.html
+    ├── analytics.html
+    ├── assistant.html
+    ├── profile.html
+    ├── settings.html
+    ├── edit_profile.html
+    ├── logout.html
+    └── logout_success.html
 ```
-## 🚀 Installation
+
+##  Installation
 
 Clone the repository
 
@@ -389,7 +445,7 @@ Open:
 ```
 http://127.0.0.1:5000
 ```
- Model Evaluation
+#  Model Evaluation
 
 The system generates:
 
@@ -406,16 +462,14 @@ Recall
 
 F1 Score
 
-## Results
+## 📈 Results
 
-The final deployed model achieved:
-
-- High classification accuracy
-- Reliable disease prediction
-- Fast real-time inference
-- Confidence score generation
-- PDF report generation
-
+- Achieved approximately **99% prediction accuracy** using the Random Forest classifier.
+- Successfully deployed the trained model using Flask.
+- Generates confidence scores for every prediction.
+- Stores reports in SQLite.
+- Supports PDF report generation.
+- Includes an AI-powered medical assistant.
 
 # Future Improvements:
 
@@ -433,10 +487,16 @@ The final deployed model achieved:
 
 
 
+##  Why This Project?
+
+This project was developed to explore how Artificial Intelligence and Machine Learning can improve healthcare accessibility by assisting users in understanding symptoms and generating informative health reports through an interactive web application.
+
+It also demonstrates practical implementation of Machine Learning model deployment using Flask and serves as a portfolio project showcasing end-to-end AI application development.
 
 
 
-# ⚠️ Medical Disclaimer
+
+## ⚠️ Medical Disclaimer
 
 This application is developed for educational and research purposes only.
 The predictions generated by this system should not replace professional medical advice, diagnosis, or treatment.
@@ -464,8 +524,8 @@ Air University Islamabad
 
 - GitHub: https://github.com/summiyahyousaf
 - LinkedIn: https://www.linkedin.com/in/summiya-yousaf-24411534a/
-
-  ##  License
+  
+ ##  License
 
 This project is licensed under the MIT License.
 
